@@ -53,11 +53,7 @@ gulp.task('browser-sync', function() {
 gulp.task('scripts', function() {
   return gulp.src([
     './app/libs/jquery/dist/jquery.min.js',
-    './app/libs/bootstrap/dist/js/bootstrap.min.js'/*,
-    './app/libs/jquery-ui/jquery-ui.min.js',
-    './app/libs/jquery-ui/ui/i18n/datepicker-ru.js',
-    './app/libs/jquery.maskedinput/dist/jquery.maskedinput.min.js',
-     './app/libs/chosen/chosen.jquery.js'*/
+    './app/libs/bootstrap/dist/js/bootstrap.min.js'
   ])
     .pipe(concat('libs.min.js'))
     .pipe(uglify())
@@ -72,20 +68,8 @@ gulp.task('css-libs', ['sass'], function() {
     .pipe(gulp.dest('./app/css'));
 });
 
-// Icons for jQuery UI
-/*gulp.task('icons-jQueryUi', function() {
-  return gulp.src('./app/libs/jquery-ui/themes/base/images/**//*')
-    .pipe(gulp.dest('./app/css/images'));
-});*/
-
-// Icons for Chosen
-/*gulp.task('icons-Chosen', function() {
- return gulp.src('./app/libs/chosen/*.png')
- .pipe(gulp.dest('./app/css'));
- });*/
-
 // Watch
-gulp.task('watch', ['browser-sync', 'pug', 'css-libs', /*'icons-jQueryUi', 'icons-Chosen',*/ 'scripts'], function() {
+gulp.task('watch', ['browser-sync', 'pug', 'css-libs', 'scripts'], function() {
   gulp.watch('./app/pug/**/*.pug', ['pug']);
   gulp.watch('./app/sass/**/*.sass', ['sass']);
   gulp.watch('./app/js/**/*.js', browserSync.reload);
@@ -131,8 +115,7 @@ gulp.task('img', function() {
 gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
   var buildCss = gulp.src([
     './app/css/main.css',
-    './app/css/libs.min.css'/*,
-    './app/css/*.png'*/
+    './app/css/libs.min.css'
   ])
     .pipe(gulp.dest('./dist/css'));
 
@@ -147,9 +130,6 @@ gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
 
   var favicon = gulp.src('./app/favicon.ico')
     .pipe(gulp.dest('./dist'));
-
-  /*var iconsForJQueryUi = gulp.src('./app/css/images/**//*')
-    .pipe(gulp.dest('./dist/css/images'));*/
 });
 
 // Clear cache

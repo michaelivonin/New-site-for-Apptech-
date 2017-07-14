@@ -1,2 +1,46 @@
 .greeting
+  .container
+    header.header
+      a.logo.header__logo(href='#' title='Apptech.ru')
+      button.button-menu.header__button-menu(type='button')
+        span.button-menu__bar
+        span.button-menu__bar.button-menu__bar_short
+        span.button-menu__bar.button-menu__bar_most-short
+      // /.button-menu
+    // /.header
+    .banner
+      h1.main-heading.banner__main-heading
+        span.main-heading__text Application
+        br
+        span.main-heading__text technology
+      // /.main-heading
+      p.banner__description
+        | Создаем успешные проекты, используя комплексный подход от&nbsp;зарождения идеи до&nbsp;результата
+      button.button-go-down.banner__button-go-down(type='button')
+        i.fa.fa-angle-double-down.button-go-down__icon(aria-hidden="true")
+    // /.banner
+  // /.container
 // /.greeting
+.window-menu
+  .column-logo
+    a.logo.column-logo__logo
+  // /.column-logo
+  .column-menu
+    button.button-close.column-menu__button-close(type='button')
+    ul.menu.column-menu__menu
+      li.menu__item
+        a.menu__link(href='#') Портфолио
+      li.menu__item
+        a.menu__link(href='#') Услуги
+      li.menu__item
+        a.menu__link(href='#') Как мы работаем
+      li.menu__item
+        a.menu__link(href='#') Какой ваш проект
+      li.menu__item
+        a.menu__link(href='#') О студии
+      li.menu__item
+        a.menu__link(href='#') Вакансии и стажировка
+      li.menu__item
+        a.menu__link(href='#') Блог
+  // /.column-menu
+// /.window-menu

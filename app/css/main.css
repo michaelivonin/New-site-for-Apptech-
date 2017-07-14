@@ -46,9 +46,87 @@ body * a:hover {
 body * a:focus {
   text-decoration: none; }
 
+.button-menu, .button-go-down {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0; }
+  .button-menu:active, .button-go-down:active {
+    position: relative;
+    left: 0; }
+    .button-menu:active span, .button-go-down:active span, .button-menu:active i, .button-go-down:active i {
+      position: relative;
+      left: 0; }
+  .button-menu:focus span, .button-go-down:focus span, .button-menu:focus i, .button-go-down:focus i {
+    position: relative;
+    left: 0; }
+
+.button-menu:hover, .button-go-down:hover {
+  opacity: 0.7; }
+
+.button-menu:active, .button-go-down:active {
+  position: relative;
+  top: 2px; }
+
 .greeting {
-  height: 100vh;
   background: -webkit-gradient(linear, left top, right top, from(#5151a5), to(#724ea3));
   background: -webkit-linear-gradient(left, #5151a5, #724ea3);
   background: -o-linear-gradient(left, #5151a5, #724ea3);
   background: linear-gradient(to right, #5151a5, #724ea3); }
+
+.button-menu {
+  width: 34px;
+  height: 21px; }
+  .button-menu__bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #e2dbec; }
+  .button-menu__bar_short {
+    width: 29px;
+    margin: 6px 0 6px 5px; }
+  .button-menu__bar_most-short {
+    width: 24px;
+    margin-left: 10px; }
+
+.header {
+  padding-top: 12.35vh; }
+  .header__logo {
+    display: inline-block;
+    width: 126px;
+    height: 68px;
+    background: url(../../img/apptech_logo.png) no-repeat; }
+  .header__button-menu {
+    float: right;
+    margin-top: 14px; }
+
+.main-heading__text {
+  font-family: "Gilroy", sans-serif;
+  color: #fefefe;
+  font-size: 6.875rem;
+  font-weight: 800;
+  line-height: 105px; }
+
+.button-go-down__icon {
+  color: #fefefe;
+  font-size: 1.2rem; }
+
+.banner {
+  background: url(../../img/banner-bg__MacBook.png) no-repeat;
+  background-position: 130px 0;
+  padding-top: 211px;
+  margin-top: 21.7vh;
+  margin-bottom: 18.2vh; }
+  .banner__main-heading {
+    margin-bottom: 49px; }
+  .banner__description {
+    display: inline-block;
+    width: 506px;
+    font-family: 'GothamPro', sans-serif;
+    color: #fefefe;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30.5px; }
+  .banner__button-go-down {
+    float: right;
+    margin-top: 39px; }
