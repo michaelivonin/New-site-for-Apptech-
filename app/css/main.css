@@ -1,40 +1,54 @@
 @font-face {
-  font-family: "Gilroy-Light";
+  font-family: "Gilroy";
   src: url("../fonts/Gilroy/Gilroy-Light.otf") format("opentype");
-  font-style: normal; }
+  font-style: normal;
+  font-weight: 300; }
 
 @font-face {
-  font-family: "Gilroy-ExtraBold";
+  font-family: "Gilroy";
   src: url("../fonts/Gilroy/Gilroy-ExtraBold.otf") format("opentype");
-  font-style: normal; }
+  font-style: normal;
+  font-weight: 800; }
 
 @font-face {
-  font-family: "GothamProLight";
+  font-family: "GothamPro";
   src: url("../fonts/GothamPro/GothamProLight.ttf") format("truetype");
-  font-style: normal; }
+  font-style: normal;
+  font-weight: 300; }
 
 @font-face {
-  font-family: "GothamProRegular";
+  font-family: "GothamPro";
   src: url("../fonts/GothamPro/GothamProRegular.ttf") format("truetype");
-  font-style: normal; }
+  font-style: normal;
+  font-weight: 400; }
 
 @font-face {
-  font-family: "GothamProMedium";
+  font-family: "GothamPro";
   src: url("../fonts/GothamPro/GothamProMedium.ttf") format("truetype");
-  font-style: normal; }
+  font-style: normal;
+  font-weight: 500; }
 
 @font-face {
-  font-family: "GothamProBold";
+  font-family: "GothamPro";
   src: url("../fonts/GothamPro/GothamProBold.ttf") format("truetype");
-  font-style: normal; }
+  font-style: normal;
+  font-weight: 700; }
 
 @font-face {
-  font-family: "GothamProBlack";
+  font-family: "GothamPro";
   src: url("../fonts/GothamPro/GothamProBlack.ttf") format("truetype");
-  font-style: normal; }
+  font-style: normal;
+  font-weight: 900; }
 
 body * a:hover {
   text-decoration: none; }
 
 body * a:focus {
   text-decoration: none; }
+
+.greeting {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#5151a5), to(#724ea3));
+  background: -webkit-linear-gradient(left, #5151a5, #724ea3);
+  background: -o-linear-gradient(left, #5151a5, #724ea3);
+  background: linear-gradient(to right, #5151a5, #724ea3); }
