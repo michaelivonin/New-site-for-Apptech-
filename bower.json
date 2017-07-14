@@ -1,0 +1,14 @@
+{
+  "name": "apptech",
+  "description": "Site for web studio",
+  "main": "main.js",
+  "authors": [
+    "Mike Ivonin <Michael@drummer.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Michael-Ivonin/Apptech",
+  "private": true,
+  "dependencies": {
+    "reset-css": "^2.2.0"
+  }
+}

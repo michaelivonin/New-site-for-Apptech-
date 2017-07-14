@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy/Gilroy-Light.otf") format("opentype");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy/Gilroy-ExtraBold.otf") format("opentype");
+  font-style: normal; }
+
+@font-face {
+  font-family: "GothamProLight";
+  src: url("../fonts/GothamPro/GothamProLight.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: "GothamProRegular";
+  src: url("../fonts/GothamPro/GothamProRegular.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: "GothamProMedium";
+  src: url("../fonts/GothamPro/GothamProMedium.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: "GothamProBold";
+  src: url("../fonts/GothamPro/GothamProBold.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: "GothamProBlack";
+  src: url("../fonts/GothamPro/GothamProBlack.ttf") format("truetype");
+  font-style: normal; }
+
+body * a:hover {
+  text-decoration: none; }
+
+body * a:focus {
+  text-decoration: none; }
