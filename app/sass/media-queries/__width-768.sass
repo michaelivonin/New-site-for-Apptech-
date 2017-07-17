@@ -1,5 +1,14 @@
 @media (min-width: 768px) and (max-width: 991px)
 
+  .header
+    padding-top: 41px
+
+  .logo__icon
+    font-size: 0.462rem
+
+  .header__button-menu
+    margin-top: 0
+
   .main-heading
 
     &__text
@@ -10,7 +19,7 @@
     background-size: 813px 389px
     background-position: -52px 0
     padding-top: 179px
-    margin-top: 11.875vh
+    margin-top: calc(50vh - ((383px/2) + ((50px + 41px)/2)))
 
     &__main-heading
       margin-bottom: 14px
@@ -21,3 +30,15 @@
 
     &__button-go-down
       margin-top: 19px
+
+  .menu
+
+    &__link
+      font-size: 1.5rem
+
+  .column-menu
+    padding: 25px
+
+    &__menu
+      margin-left: 25px
+      top: calc(50% - (399px - 33px)/2)

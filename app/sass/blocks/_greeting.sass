@@ -46,17 +46,16 @@
     background: $white
 
   &__bar_short
-    width: 29px
+    width: calc(100% - 5px)
     margin: 6px 0 6px 5px
 
   &__bar_most-short
-    width: 24px
+    width: calc(100% - 10px)
     margin-left: 10px
 
 
 .header
-  //padding-top: 12.35vh
-  padding-top: 6.5vh
+  padding-top: 52px
 
   //&__logo
     display: inline-block
@@ -69,8 +68,8 @@
     margin-top: 14px
 
 .main-heading
+
   &__text
-    font-family: "Gilroy", sans-serif
     color: $white2
     font-size: 6.875rem
     font-weight: 800
@@ -88,16 +87,12 @@
 .banner
   background: url(../../img/banner-bg__MacBook.png) no-repeat
   background-position: 130px 0
-  //padding-top: 211px
-  padding-top: 26.375vh
-  //margin-top: 11.875vh
-  //position: absolute
-  //top: calc(50% - ((530px/2) - (68px + 6.5vh)))
-  //width: 100%
-  margin: 0 auto
+  padding-top: 211px
+  margin-top: calc(50vh - ((530px/2) + ((68px + 52px)/2)))
 
   &__main-heading
-    margin-bottom: 49px
+    //margin-bottom: 49px
+    margin-bottom: 30px
 
   &__description
     display: inline-block
@@ -145,7 +140,6 @@
     margin-bottom: 33px
 
   &__link
-    font-family: 'Gilroy', sans-serif
     color: $white2
     font-size: 1.875rem
     font-weight: 700

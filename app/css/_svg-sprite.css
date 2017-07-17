@@ -8,7 +8,7 @@
     display: inline-block;
     background-image: url("../img/svg-sprite.svg");
     background-repeat: no-repeat;
-    background-size: 13em 13.5em;
+    background-size: 13em 27.2em;
 }
 
 .no-svg .icon:before {
@@ -17,8 +17,35 @@
 
 
 
-  .icon.logo__icon:before {
+  .icon.icon-html5:before {
       background-position: -0.2em -0.2em;
+      width: 4.2em;
+      height: 4.2em;
+  }
+
+
+
+
+  .icon.icon-js:before {
+      background-position: -0.2em -4.8em;
+      width: 4.1em;
+      height: 4.1em;
+  }
+
+
+
+
+  .icon.icon-php:before {
+      background-position: -0.2em -9.299999999999999em;
+      width: 4.2em;
+      height: 4.2em;
+  }
+
+
+
+
+  .icon.logo__icon:before {
+      background-position: -0.2em -13.899999999999999em;
       width: 12.6em;
       height: 6.8em;
   }
@@ -27,7 +54,7 @@
 
 
   .icon.logo__icon_menu:before {
-      background-position: -0.2em -7.4em;
+      background-position: -0.2em -21.099999999999998em;
       width: 10.6em;
       height: 5.9em;
   }
