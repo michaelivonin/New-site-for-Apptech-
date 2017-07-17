@@ -1,0 +1,38 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../img/svg-sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 13em 13.5em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../img/svg-sprite.png");
+}
+
+
+
+  .icon.logo__icon:before {
+      background-position: -0.2em -0.2em;
+      width: 12.6em;
+      height: 6.8em;
+  }
+
+
+
+
+  .icon.logo__icon_menu:before {
+      background-position: -0.2em -7.4em;
+      width: 10.6em;
+      height: 5.9em;
+  }
+
+
+
+
+

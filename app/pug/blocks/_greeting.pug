@@ -2,6 +2,7 @@
   .container
     header.header
       a.logo.header__logo(href='#' title='Apptech.ru')
+        span.icon.logo__icon
       button.button-menu.header__button-menu(type='button')
         span.button-menu__bar
         span.button-menu__bar.button-menu__bar_short
@@ -23,10 +24,12 @@
 // /.greeting
 .window-menu
   .column-logo
-    a.logo.column-logo__logo
+    a.logo_menu.column-logo__logo_menu(href='#')
+      span.icon.logo__icon_menu
   // /.column-logo
   .column-menu
     button.button-close.column-menu__button-close(type='button')
+      i.fa.fa-times.button-close__icon(aria-hidden="true")
     ul.menu.column-menu__menu
       li.menu__item
         a.menu__link(href='#') Портфолио
@@ -42,5 +45,6 @@
         a.menu__link(href='#') Вакансии и стажировка
       li.menu__item
         a.menu__link(href='#') Блог
+    // /.menu
   // /.column-menu
 // /.window-menu
