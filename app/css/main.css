@@ -192,27 +192,27 @@ body {
     top: -webkit-calc(50% - (441px - 33px)/2);
     top: calc(50% - (441px - 33px)/2); }
 
+.content {
+  overflow: hidden; }
+
 .projects {
   background: white;
   padding-top: 66px;
   margin-bottom: -54px; }
-
-.projects__heading {
-  color: #e8e8e8;
-  font-size: 8.125rem;
-  font-weight: 700;
-  margin-left: 103px;
-  margin-bottom: 92px; }
-
-.column1 {
-  width: 50%;
-  padding-right: 25px;
-  float: left; }
-
-.column2 {
-  width: 50%;
-  padding-left: 25px;
-  float: right; }
+  .projects__heading {
+    color: #e8e8e8;
+    font-size: 8.125rem;
+    font-weight: 700;
+    margin-left: 103px;
+    margin-bottom: 92px; }
+  .projects__column1 {
+    width: 50%;
+    padding-right: 25px;
+    float: left; }
+  .projects__column2 {
+    width: 50%;
+    padding-left: 25px;
+    float: right; }
 
 .item {
   border-bottom: 1px solid #dbdbdb;
@@ -238,6 +238,97 @@ body {
     bottom: 0;
     right: 0; }
 
+.services {
+  padding-top: 15px; }
+  .services__heading {
+    color: #282828;
+    font-size: 8.125rem;
+    font-weight: 700;
+    margin-left: 98px;
+    margin-bottom: 124px; }
+
+.services__design {
+  margin-top: 0; }
+
+.design__icon {
+  margin-right: 64px;
+  float: left; }
+
+.design__heading {
+  display: inline-block;
+  color: #1c1c1c;
+  font-size: 1.875rem;
+  font-weight: 700;
+  border-bottom: 2px solid #1c1c1c;
+  padding-bottom: 6px;
+  margin-bottom: 40px;
+  float: left; }
+
+.design__make-list {
+  font-family: 'GothamPro', sans-serif;
+  width: 510px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 52px;
+  float: left;
+  position: relative; }
+
+.make-list__heading {
+  font-family: 'GothamPro', sans-serif;
+  color: #1c1c1c;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 27px;
+  text-transform: uppercase; }
+
+.make-list__item {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #7614f8;
+  margin-bottom: 25px; }
+
+.make-list__text {
+  color: #4e4e4e;
+  font-size: 1rem;
+  margin-left: 15px; }
+
+.make-list__vertical-block {
+  width: 3px;
+  height: 31px;
+  background: #2d2d2d;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 40px; }
+
+.design__use-list {
+  float: left;
+  height: 297px;
+  position: relative; }
+
+.use-list__heading {
+  font-family: 'GothamPro', sans-serif;
+  color: #b4b4b4;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+  top: -7px;
+  line-height: 23px; }
+
+.use-list__item {
+  font-family: 'GothamPro', sans-serif;
+  color: #4e4e4e;
+  font-size: 0.875rem;
+  margin-bottom: 24px; }
+
+.use-list__horizontal-block {
+  width: 100vw;
+  height: 10px;
+  background: #5151a5;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
 .icon {
   font-size: 10px; }
 
@@ -247,34 +338,39 @@ body {
   display: inline-block;
   background-image: url("../img/svg-sprite.svg");
   background-repeat: no-repeat;
-  -webkit-background-size: 13em 27.2em;
-          background-size: 13em 27.2em; }
+  -webkit-background-size: 24.5em 47em;
+          background-size: 24.5em 47em; }
 
 .no-svg .icon:before {
   background-image: url("../img/svg-sprite.png"); }
 
-.icon.icon-html5:before {
+.icon.design__icon:before {
   background-position: -0.2em -0.2em;
+  width: 24.1em;
+  height: 19.4em; }
+
+.icon.icon-html5:before {
+  background-position: -0.2em -20em;
   width: 4.2em;
   height: 4.2em; }
 
 .icon.icon-js:before {
-  background-position: -0.2em -4.8em;
+  background-position: -0.2em -24.599999999999998em;
   width: 4.1em;
   height: 4.1em; }
 
 .icon.icon-php:before {
-  background-position: -0.2em -9.299999999999999em;
+  background-position: -0.2em -29.099999999999998em;
   width: 4.2em;
   height: 4.2em; }
 
 .icon.logo__icon:before {
-  background-position: -0.2em -13.899999999999999em;
+  background-position: -0.2em -33.7em;
   width: 12.6em;
   height: 6.8em; }
 
 .icon.logo__icon_menu:before {
-  background-position: -0.2em -21.099999999999998em;
+  background-position: -0.2em -40.900000000000006em;
   width: 10.6em;
   height: 5.9em; }
 
