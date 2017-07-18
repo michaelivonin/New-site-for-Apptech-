@@ -238,23 +238,15 @@ body {
     bottom: 0;
     right: 0; }
 
-.services {
-  padding-top: 15px; }
-  .services__heading {
-    color: #282828;
-    font-size: 8.125rem;
-    font-weight: 700;
-    margin-left: 98px;
-    margin-bottom: 124px; }
+.services__design, .services__development, .services__mobile, .services__interface, .services__marketing {
+  position: relative;
+  float: left; }
 
-.services__design {
-  margin-top: 0; }
-
-.design__icon {
+.services .design__icon, .services .development__icon, .services .mobile__icon, .services .interface__icon, .services .marketing__icon {
   margin-right: 64px;
   float: left; }
 
-.design__heading {
+.services .design__heading, .services .development__heading, .services .mobile__heading, .services .interface__heading, .services .marketing__heading {
   display: inline-block;
   color: #1c1c1c;
   font-size: 1.875rem;
@@ -264,7 +256,7 @@ body {
   margin-bottom: 40px;
   float: left; }
 
-.design__make-list {
+.services .design__make-list, .services .development__make-list, .services .mobile__make-list, .services .interface__make-list, .services .marketing__make-list {
   font-family: 'GothamPro', sans-serif;
   width: 510px;
   border-bottom: 1px solid #e8e8e8;
@@ -272,7 +264,7 @@ body {
   float: left;
   position: relative; }
 
-.make-list__heading {
+.services .design .make-list__heading, .services .development .make-list__heading, .services .mobile .make-list__heading, .services .interface .make-list__heading, .services .marketing .make-list__heading {
   font-family: 'GothamPro', sans-serif;
   color: #1c1c1c;
   font-size: 0.75rem;
@@ -280,18 +272,22 @@ body {
   margin-bottom: 27px;
   text-transform: uppercase; }
 
-.make-list__item {
+.services .design .make-list__item, .services .development .make-list__item, .services .mobile .make-list__item, .services .interface .make-list__item, .services .marketing .make-list__item {
   list-style-type: disc;
   list-style-position: inside;
   color: #7614f8;
   margin-bottom: 25px; }
 
-.make-list__text {
+.services .design .make-list__text, .services .development .make-list__text, .services .mobile .make-list__text, .services .interface .make-list__text, .services .marketing .make-list__text {
   color: #4e4e4e;
   font-size: 1rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-left: 15px; }
 
-.make-list__vertical-block {
+.services .design .make-list__vertical-block, .services .development .make-list__vertical-block, .services .mobile .make-list__vertical-block, .services .interface .make-list__vertical-block, .services .marketing .make-list__vertical-block {
   width: 3px;
   height: 31px;
   background: #2d2d2d;
@@ -300,14 +296,14 @@ body {
   right: 0;
   margin-right: 40px; }
 
-.design__use-list {
+.services .design__use-list, .services .development__use-list, .services .mobile__use-list, .services .interface__use-list, .services .marketing__use-list, .services .marketing__use-list_second {
   float: left;
   height: 297px;
   position: relative; }
 
-.use-list__heading {
+.services .design .use-list__heading, .services .development .use-list__heading, .services .mobile .use-list__heading, .services .interface .use-list__heading, .services .marketing .use-list__heading {
   font-family: 'GothamPro', sans-serif;
-  color: #b4b4b4;
+  color: #777777;
   font-size: 0.75rem;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -315,19 +311,69 @@ body {
   top: -7px;
   line-height: 23px; }
 
-.use-list__item {
+.services .design .use-list__item, .services .development .use-list__item, .services .mobile .use-list__item, .services .interface .use-list__item, .services .marketing .use-list__item {
   font-family: 'GothamPro', sans-serif;
-  color: #4e4e4e;
+  color: #777777;
   font-size: 0.875rem;
   margin-bottom: 24px; }
 
-.use-list__horizontal-block {
+.services .design .use-list__horizontal-block, .services .development .use-list__horizontal-block, .services .mobile .use-list__horizontal-block, .services .interface .use-list__horizontal-block, .services .marketing .use-list__horizontal-block {
   width: 100vw;
   height: 10px;
   background: #5151a5;
   position: absolute;
   bottom: 0;
   left: 0; }
+
+.services .design__dots-block, .services .development__dots-block, .services .mobile__dots-block, .services .interface__dots-block, .services .marketing__dots-block {
+  width: 100vw;
+  height: 337px;
+  background: transparent;
+  background-image: -webkit-radial-gradient(#e8e8e8 6%, transparent 0);
+  background-image: -o-radial-gradient(#e8e8e8 6%, transparent 0);
+  background-image: radial-gradient(#e8e8e8 6%, transparent 0);
+  -webkit-background-size: 18px 18px;
+          background-size: 18px 18px;
+  position: absolute;
+  top: -28px;
+  left: 80.3%;
+  z-index: -1; }
+
+.services {
+  padding-top: 15px;
+  padding-bottom: 56px; }
+  .services__heading {
+    color: #282828;
+    font-size: 8.125rem;
+    font-weight: 700;
+    margin-left: 98px;
+    margin-bottom: 124px; }
+  .services__development {
+    margin-top: 81px; }
+  .services .development__heading {
+    margin-right: 100px; }
+  .services .development .make-list__item {
+    margin-bottom: 17px; }
+  .services .development .make-list__text {
+    line-height: 24px; }
+  .services .development__use-list {
+    height: 280px; }
+  .services__mobile {
+    margin-top: 81px; }
+  .services__interface {
+    margin-top: 81px; }
+  .services .interface__heading {
+    margin-right: 100px; }
+  .services__marketing {
+    margin-top: 81px; }
+  .services .marketing__make-list {
+    border-bottom: none; }
+  .services .marketing__use-list_second {
+    height: auto;
+    margin-top: 76px;
+    margin-left: 10px; }
+  .services .marketing .use-list__horizontal-block {
+    display: none; }
 
 .icon {
   font-size: 10px; }
@@ -338,8 +384,8 @@ body {
   display: inline-block;
   background-image: url("../img/svg-sprite.svg");
   background-repeat: no-repeat;
-  -webkit-background-size: 24.5em 47em;
-          background-size: 24.5em 47em; }
+  -webkit-background-size: 24.5em 170.2em;
+          background-size: 24.5em 170.2em; }
 
 .no-svg .icon:before {
   background-image: url("../img/svg-sprite.png"); }
@@ -349,30 +395,75 @@ body {
   width: 24.1em;
   height: 19.4em; }
 
-.icon.icon-html5:before {
+.icon.development__icon:before {
   background-position: -0.2em -20em;
+  width: 24.1em;
+  height: 19.4em; }
+
+.icon.icon-html5:before {
+  background-position: -0.2em -39.800000000000004em;
   width: 4.2em;
   height: 4.2em; }
 
 .icon.icon-js:before {
-  background-position: -0.2em -24.599999999999998em;
+  background-position: -0.2em -44.400000000000006em;
   width: 4.1em;
   height: 4.1em; }
 
 .icon.icon-php:before {
-  background-position: -0.2em -29.099999999999998em;
+  background-position: -0.2em -48.900000000000006em;
   width: 4.2em;
   height: 4.2em; }
 
+.icon.interface__icon:before {
+  background-position: -0.2em -53.5em;
+  width: 24.1em;
+  height: 19.4em; }
+
 .icon.logo__icon:before {
-  background-position: -0.2em -33.7em;
+  background-position: -0.2em -73.3em;
   width: 12.6em;
   height: 6.8em; }
 
 .icon.logo__icon_menu:before {
-  background-position: -0.2em -40.900000000000006em;
+  background-position: -0.2em -80.5em;
   width: 10.6em;
   height: 5.9em; }
+
+.icon.marketing__icon:before {
+  background-position: -0.2em -86.8em;
+  width: 24.1em;
+  height: 19.4em; }
+
+.icon.mobile__icon:before {
+  background-position: -0.2em -106.60000000000001em;
+  width: 24.1em;
+  height: 19.4em; }
+
+.icon.step__icon-1:before {
+  background-position: -0.2em -126.4em;
+  width: 18.4em;
+  height: 8.4em; }
+
+.icon.step__icon-2:before {
+  background-position: -0.2em -135.2em;
+  width: 17.4em;
+  height: 8.4em; }
+
+.icon.step__icon-3:before {
+  background-position: -0.2em -144em;
+  width: 17.7em;
+  height: 8.4em; }
+
+.icon.step__icon-4:before {
+  background-position: -0.2em -152.79999999999998em;
+  width: 17.8em;
+  height: 8.4em; }
+
+.icon.step__icon-5:before {
+  background-position: -0.2em -161.6em;
+  width: 17.6em;
+  height: 8.4em; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .banner {

@@ -8,7 +8,7 @@
     display: inline-block;
     background-image: url("../img/svg-sprite.svg");
     background-repeat: no-repeat;
-    background-size: 24.5em 47em;
+    background-size: 24.5em 170.2em;
 }
 
 .no-svg .icon:before {
@@ -26,8 +26,17 @@
 
 
 
-  .icon.icon-html5:before {
+  .icon.development__icon:before {
       background-position: -0.2em -20em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
+  .icon.icon-html5:before {
+      background-position: -0.2em -39.800000000000004em;
       width: 4.2em;
       height: 4.2em;
   }
@@ -36,7 +45,7 @@
 
 
   .icon.icon-js:before {
-      background-position: -0.2em -24.599999999999998em;
+      background-position: -0.2em -44.400000000000006em;
       width: 4.1em;
       height: 4.1em;
   }
@@ -45,7 +54,7 @@
 
 
   .icon.icon-php:before {
-      background-position: -0.2em -29.099999999999998em;
+      background-position: -0.2em -48.900000000000006em;
       width: 4.2em;
       height: 4.2em;
   }
@@ -53,8 +62,17 @@
 
 
 
+  .icon.interface__icon:before {
+      background-position: -0.2em -53.5em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
   .icon.logo__icon:before {
-      background-position: -0.2em -33.7em;
+      background-position: -0.2em -73.3em;
       width: 12.6em;
       height: 6.8em;
   }
@@ -63,9 +81,72 @@
 
 
   .icon.logo__icon_menu:before {
-      background-position: -0.2em -40.900000000000006em;
+      background-position: -0.2em -80.5em;
       width: 10.6em;
       height: 5.9em;
+  }
+
+
+
+
+  .icon.marketing__icon:before {
+      background-position: -0.2em -86.8em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
+  .icon.mobile__icon:before {
+      background-position: -0.2em -106.60000000000001em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
+  .icon.step__icon-1:before {
+      background-position: -0.2em -126.4em;
+      width: 18.4em;
+      height: 8.4em;
+  }
+
+
+
+
+  .icon.step__icon-2:before {
+      background-position: -0.2em -135.2em;
+      width: 17.4em;
+      height: 8.4em;
+  }
+
+
+
+
+  .icon.step__icon-3:before {
+      background-position: -0.2em -144em;
+      width: 17.7em;
+      height: 8.4em;
+  }
+
+
+
+
+  .icon.step__icon-4:before {
+      background-position: -0.2em -152.79999999999998em;
+      width: 17.8em;
+      height: 8.4em;
+  }
+
+
+
+
+  .icon.step__icon-5:before {
+      background-position: -0.2em -161.6em;
+      width: 17.6em;
+      height: 8.4em;
   }
 
 

@@ -1,15 +1,6 @@
-.services
-  padding-top: 15px
-
-  &__heading
-    color: $black2
-    font-size: 8.125rem
-    font-weight: 700
-    margin-left: 98px
-    margin-bottom: 124px
-
 %services__item_default
-  margin-top: 0
+  position: relative
+  float: left
 
 %item__icon_default
   margin-right: 64px
@@ -50,6 +41,7 @@
 %make-list__text_default
   color: $grey
   font-size: 1rem
+  display: inline-flex
   margin-left: 15px
 
 %make-list__vertical-block_default
@@ -68,7 +60,7 @@
 
 %use-list__heading_default
   font-family: 'GothamPro', sans-serif
-  color: $grey2
+  color: $grey3
   font-size: 0.75rem
   text-transform: uppercase
   margin-bottom: 30px
@@ -78,7 +70,7 @@
 
 %use-list__item_default
   font-family: 'GothamPro', sans-serif
-  color: $grey
+  color: $grey3
   font-size: 0.875rem
   margin-bottom: 24px
 
@@ -90,39 +82,246 @@
   bottom: 0
   left: 0
 
-.services__design
-  @extend %services__item_default
+%item__dots-block_default
+  width: 100vw
+  height: 337px
+  background: transparent
+  background-image: radial-gradient($white3 6%, transparent 0)
+  background-size: 18px 18px
+  position: absolute
+  top: -28px
+  left: 80.3%
+  z-index: -1
 
-.design__icon
-  @extend %item__icon_default
+.services
+  padding-top: 15px
+  padding-bottom: 56px
 
-.design__heading
-  @extend %item__heading_default
+  &__heading
+    color: $black2
+    font-size: 8.125rem
+    font-weight: 700
+    margin-left: 98px
+    margin-bottom: 124px
 
-.design__make-list
-  @extend %item__make-list_default
+  &__design
+    @extend %services__item_default
 
-.make-list__heading
-  @extend %make-list__heading_default
+  .design
 
-.make-list__item
-  @extend %make-list__item_default
+    &__icon
+      @extend %item__icon_default
 
-.make-list__text
-  @extend %make-list__text_default
+    &__heading
+      @extend %item__heading_default
 
-.make-list__vertical-block
-  @extend %make-list__vertical-block_default
+    &__make-list
+      @extend %item__make-list_default
 
-.design__use-list
-  @extend %item__use-list_default
+    .make-list__heading
+      @extend %make-list__heading_default
 
-.use-list__heading
-  @extend %use-list__heading_default
+    .make-list__item
+      @extend %make-list__item_default
 
-.use-list__item
-  @extend %use-list__item_default
+    .make-list__text
+      @extend %make-list__text_default
 
-.use-list__horizontal-block
-  @extend %use-list__horizontal-block_default
+    .make-list__vertical-block
+      @extend %make-list__vertical-block_default
 
+    &__use-list
+      @extend %item__use-list_default
+
+    .use-list__heading
+      @extend %use-list__heading_default
+
+    .use-list__item
+      @extend %use-list__item_default
+
+    .use-list__horizontal-block
+      @extend %use-list__horizontal-block_default
+
+    &__dots-block
+      @extend %item__dots-block_default
+
+  &__development
+    @extend %services__item_default
+    margin-top: 81px
+
+  .development
+
+    &__icon
+      @extend %item__icon_default
+
+    &__heading
+      @extend %item__heading_default
+      margin-right: 100px
+
+    &__make-list
+      @extend %item__make-list_default
+
+    .make-list__heading
+      @extend %make-list__heading_default
+
+    .make-list__item
+      @extend %make-list__item_default
+      margin-bottom: 17px
+
+    .make-list__text
+      @extend %make-list__text_default
+      line-height: 24px
+
+    .make-list__vertical-block
+      @extend %make-list__vertical-block_default
+
+    &__use-list
+      @extend %item__use-list_default
+      height: 280px
+
+    .use-list__heading
+      @extend %use-list__heading_default
+
+    .use-list__item
+      @extend %use-list__item_default
+
+    .use-list__horizontal-block
+      @extend %use-list__horizontal-block_default
+
+    &__dots-block
+      @extend %item__dots-block_default
+
+  &__mobile
+    @extend %services__item_default
+    margin-top: 81px
+
+  .mobile
+
+    &__icon
+      @extend %item__icon_default
+
+    &__heading
+      @extend %item__heading_default
+
+    &__make-list
+      @extend %item__make-list_default
+
+    .make-list__heading
+      @extend %make-list__heading_default
+
+    .make-list__item
+      @extend %make-list__item_default
+
+    .make-list__text
+      @extend %make-list__text_default
+
+    .make-list__vertical-block
+      @extend %make-list__vertical-block_default
+
+    &__use-list
+      @extend %item__use-list_default
+
+    .use-list__heading
+      @extend %use-list__heading_default
+
+    .use-list__item
+      @extend %use-list__item_default
+
+    .use-list__horizontal-block
+      @extend %use-list__horizontal-block_default
+
+    &__dots-block
+      @extend %item__dots-block_default
+
+  &__interface
+    @extend %services__item_default
+    margin-top: 81px
+
+  .interface
+
+    &__icon
+      @extend %item__icon_default
+
+    &__heading
+      @extend %item__heading_default
+      margin-right: 100px
+
+    &__make-list
+      @extend %item__make-list_default
+
+    .make-list__heading
+      @extend %make-list__heading_default
+
+    .make-list__item
+      @extend %make-list__item_default
+
+    .make-list__text
+      @extend %make-list__text_default
+
+    .make-list__vertical-block
+      @extend %make-list__vertical-block_default
+
+    &__use-list
+      @extend %item__use-list_default
+
+    .use-list__heading
+      @extend %use-list__heading_default
+
+    .use-list__item
+      @extend %use-list__item_default
+
+    .use-list__horizontal-block
+      @extend %use-list__horizontal-block_default
+
+    &__dots-block
+      @extend %item__dots-block_default
+
+  &__marketing
+    @extend %services__item_default
+    margin-top: 81px
+
+  .marketing
+
+    &__icon
+      @extend %item__icon_default
+
+    &__heading
+      @extend %item__heading_default
+
+    &__make-list
+      @extend %item__make-list_default
+      border-bottom: none
+
+    .make-list__heading
+      @extend %make-list__heading_default
+
+    .make-list__item
+      @extend %make-list__item_default
+
+    .make-list__text
+      @extend %make-list__text_default
+
+    .make-list__vertical-block
+      @extend %make-list__vertical-block_default
+
+    &__use-list
+      @extend %item__use-list_default
+
+    &__use-list_second
+      @extend %item__use-list_default
+      height: auto
+      margin-top: 76px
+      margin-left: 10px
+
+    .use-list__heading
+      @extend %use-list__heading_default
+
+    .use-list__item
+      @extend %use-list__item_default
+
+    .use-list__horizontal-block
+      @extend %use-list__horizontal-block_default
+      display: none
+
+    &__dots-block
+      @extend %item__dots-block_default

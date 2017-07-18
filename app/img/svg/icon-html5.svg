@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg"
-	xmlns:xlink="http://www.w3.org/1999/xlink"
-	width="42px" height="42px" viewBox="0 0 42 42">
-<filter filterUnits="objectBoundingBox" x="0.00" y="0.00" width="100.00" height="100.00" id="filter0">
-<feImage x="0" y="0" width="42" height="42" preserveApectRatio="none" xlink:href="#symbol0"/>
-<feComposite in="grImage1" in2="SourceAlpha" operator="in" result="grOverlay1"/>
-<feBlend in="grOverlay1" in2="SourceGraphic" mode="normal" result="gradientOverlay1"/>
-</filter>
-<linearGradient id="linear_PSgrad_0" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="rgb(255,141,65)" stop-opacity="1" />
-    <stop offset="100%" stop-color="rgb(229,79,45)" stop-opacity="1" />
-</linearGradient>
-
-<defs>
-<rect x="0" y="0" width="42" height="42" id="symbol0" fill="url(#linear_PSgrad_0)"/></defs>
-<g><ellipse cx="20.50" cy="21.00" rx="20.50" ry="20.00" fill="rgb(255,255,255)" filter="url(#filter0)"/><image x="11" y="12" width="20" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAQAAADs3AYjAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAGcSURBVCjPjdHNStRxFMbxz3/8RWMiFiKVZZEIUS0SSpGoKKJd0SLa1T10D11BdBVdQZsgojBI7GUTYtmbpKOOjtrk28z8TwvFBhHsnN1zvjyH55wsJnTZu5aSWb3/Af4o+G5pT6xhMqlY1SH3VW1LzsQ2Ek5pVVNJyv6g4LaxXd0+61NTTkqqoIh9DsqboFDUhZq55Jdl0OuDcx6pN4G5Du1YN5WUrYBOFN3adf26UlKxBnoUjHksNUVpOOOGFnXzybwKaJNb9LDJJwn3XNOymbqqBE67YENVTYaCmpLccQUsKCcNZXXJTZeEDQ0ZKHngkx4tmLZWEBat4ac77hp3TLdu3Q5o4JBMbkZeEJasY79Rr720KhfWffEbh5FbEGnb8aiiFU9MGNJqxDNTW2BDRYhC9Md4RERcjc7Q1O3RF1MRUY37kZIwt3Xyp4YNe2fShh5nDbniCOqm5UK0xWj8qzzexotYblIWoz8krCo3nTkzsOOBK2bJAgZcd96gvh1IyYj3hj3XyLYf2+GkEwZddlHRR6+88c2kmc3xX/I6y1TDsljoAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE3LTA3LTE3VDExOjE3OjMyKzAwOjAwVRozcgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNy0wNy0xN1QxMToxNzozMiswMDowMCRHi84AAAAASUVORK5CYII=" /></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 42 42"><defs><style>.cls-1{isolation:isolate;}</style></defs><title>icon-html5</title><g id="desktop" class="cls-1"><g id="портфолио"><g id="_1" data-name="1"><g id="Группа_5_копия" data-name="Группа 5 копия"><g id="Группа_4" data-name="Группа 4"><g id="Эллипс_2_Изображение" data-name="Эллипс 2 Изображение"><image id="Эллипс_2_Изображение-2" data-name="Эллипс 2 Изображение" width="42" height="42" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAACXBIWXMAAAsSAAALEgHS3X78AAADK0lEQVRYR83WW0iTYRzH8XdGoSTRgYo5tXl2mYdc29RtZgckwkwkCwlRIjQpy9AycaEhdOltdR90WRR1m1DYVU4rK8tOmoeaOg9zOqP33+81PKzNPdPm9lx87973///cvM/7CEQk+KLper3Cfk2vtl/Nypm6kqW31WSm2i5nbmW9523MB9zlaDTKZq4bjTMmw83pBsMLIG1AEpAEJAFJQNJkdQZNXNRZJqp0j8fPa2vHKrUxrNk+gc42GUOBrAWyB0gCkoAkD0gCkoAkIGmsQiNayzXPR8/uKxw9ow5i7VsxdPZGdhCQ54C0AEmrRBKQBCQBSSNl6s7h0vRs1m6voUAqgWwDknyIJCDJUpIuWk7vvf2zOC2Y5WAhc4G0rhGSgCQg6ceptI6hotSIVUGBPAmkww9IApKGTqT2DhamqFYEBfKYn5EEJA0UJPf15yeHewUFUgXkVACQBCT15+0xfz+aFOIRCmQwkF0BRBKQ1Hck6ZZnaJOxmQMk9ebuFr8dVuW4hQIZBeQMB0gCkr4eSOz8sj9R5gIF8g5HSAKSPhsSjjtBgdwMpJ0zJH3Kim91ggJZziGSenRx4kdNrHIRajI84RBJQNKH9JjqOSiQ64G0cYqk7rSYh3NQIFM4RtL7lOiBv9B6fRHHSHqXFEVvVcpNApCXOEdSV7xSJQBp4hxJXbG7tAKQjZwj6U10ZKYAZA3nSHqtjEgWgCzhHEmvIiN2CEBmcI60zh1PQIYC+YtTJHUqwlsXfqFAtnGKpA65onEBCqSJUySZd4bpFqEVGiWQIofIbvP2MJnTxRnIR5whCcgLLjd8IDM4Qw62b5OHuEClgLzHCZKALFtqc4ICGQbkCAfIpy+3yGXLQqWAzAdSDCDSAqTiX5cLVArI5gAhp4A86M7kFioFZIufkQ4g85bzLAuVArIBSNEPyHEgD3myeIRKAZkH5PAaIs1AxrEcTKgUkHIg7/oYaQeyHsgNrP1eQ+cDUgvkAyB//wdyEsgWIF2+bJ9B5wMyEsg6IJ8B6fACaQXyPpClQIay5vsMujQgNwKpBrIYyCog64CsA7ISyAIgE4Bcx5rD6g+OoPoxdmyLqAAAAABJRU5ErkJggg=="/></g></g></g></g></g></g></svg>
