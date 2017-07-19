@@ -13,16 +13,15 @@
   <body>
     <div class="greeting">
       <div class="container">
-        <header class="header"><a class="logo header__logo" href="#" title="Apptech.ru"><span class="icon logo__icon"></span></a>
-          <button class="button-menu header__button-menu" type="button"><span class="button-menu__bar"></span><span class="button-menu__bar button-menu__bar_short"></span><span class="button-menu__bar button-menu__bar_most-short"></span></button>
-          <!-- /.button-menu-->
+        <header class="header"><a class="header__logo" href="#" title="Apptech.ru"><span class="icon icon-logo header__icon-logo"></span></a>
+          <button class="header__button-menu" type="button"><span class="header__bar"></span><span class="header__bar header__bar_short"></span><span class="header__bar header__bar_most-short"></span></button>
+          <!-- /.header__button-menu-->
         </header>
         <!-- /.header-->
         <div class="banner">
-          <h1 class="main-heading banner__main-heading"><span class="main-heading__text">Application</span><br><span class="main-heading__text">technology</span></h1>
-          <!-- /.main-heading-->
-          <p class="banner__description">Создаем успешные проекты, используя комплексный подход от&nbsp;зарождения идеи до&nbsp;результата</p>
-          <button class="button-go-down banner__button-go-down" type="button"><i class="fa fa-angle-double-down button-go-down__icon" aria-hidden="true"></i></button>
+          <h1 class="banner__main-heading">Application<br>technology</h1>
+          <!-- /.banner__main-heading-->
+          <p class="banner__description">Создаем успешные проекты, используя комплексный подход от&nbsp;зарождения идеи до&nbsp;результата</p><a class="banner__button-go-down" href="#projects"><i class="fa fa-angle-double-down banner__icon-go-down" aria-hidden="true"></i></a>
         </div>
         <!-- /.banner-->
       </div>
@@ -30,26 +29,26 @@
     </div>
     <!-- /.greeting-->
     <div class="window-menu">
-      <div class="column-logo"><a class="logo_menu column-logo__logo_menu" href="#"><span class="icon logo__icon_menu"></span></a></div>
+      <div class="column-logo"><a class="logo_menu column-logo__logo_menu" href="#"><span class="icon icon-logo_menu column-logo__icon-logo_menu"></span></a></div>
       <!-- /.column-logo-->
       <div class="column-menu">
-        <button class="button-close column-menu__button-close" type="button"><i class="fa fa-times button-close__icon" aria-hidden="true"></i></button>
-        <ul class="menu column-menu__menu">
-          <li class="menu__item"><a class="menu__link" href="#">Портфолио</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Услуги</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Как мы работаем</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Какой ваш проект</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">О студии</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Вакансии и стажировка</a></li>
-          <li class="menu__item"><a class="menu__link" href="#">Блог</a></li>
+        <button class="column-menu__button-close" type="button"><i class="fa fa-times column-menu__icon-close" aria-hidden="true"></i></button>
+        <ul class="column-menu__menu">
+          <li class="column-menu__item"><a class="column-menu__link" href="#projects">Портфолио</a></li>
+          <li class="column-menu__item"><a class="column-menu__link" href="#services">Услуги</a></li>
+          <li class="column-menu__item"><a class="column-menu__link" href="#how-we-work">Как мы работаем</a></li>
+          <li class="column-menu__item"><a class="column-menu__link" href="#your-project">Какой ваш проект</a></li>
+          <li class="column-menu__item"><a class="column-menu__link" href="#studio">О студии</a></li>
+          <li class="column-menu__item"><a class="column-menu__link" href="#career">Вакансии и стажировка</a></li>
+          <li class="column-menu__item"><a class="column-menu__link" href="#blog">Блог</a></li>
         </ul>
-        <!-- /.menu-->
+        <!-- /.column-menu__menu-->
       </div>
       <!-- /.column-menu-->
     </div>
     <!-- /.window-menu-->
     <main class="content">
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="container">
           <h3 class="section-heading projects__heading">Наши работы</h3>
           <div class="projects__column1">
@@ -118,7 +117,7 @@
         <!-- /.container-->
       </section>
       <!-- /.projects-->
-      <section class="services">
+      <section class="services" id="services">
         <div class="container">
           <h3 class="section-heading services__heading">Услуги</h3>
           <div class="design services__design"><span class="icon design__icon"></span>
@@ -248,7 +247,7 @@
         <!-- /.container-->
       </section>
       <!-- /.services-->
-      <section class="how-we-work">
+      <section class="how-we-work" id="how-we-work">
         <div class="container">
           <h4 class="section-heading how-we-work__heading">Как мы<br>работаем</h4>
           <!-- /.how-we-work__heading-->
@@ -282,7 +281,7 @@
         <!-- /.container-->
       </section>
       <!-- /.how-we-work-->
-      <section class="your-project">
+      <section class="your-project" id="your-project">
         <div class="container">
           <h4 class="section-heading your-project__heading">Какой ваш<br>проект?</h4>
           <!-- /.your-project__heading-->
@@ -307,7 +306,7 @@
         <!-- /.container-->
       </section>
       <!-- /.your-project-->
-      <section class="studio">
+      <section class="studio" id="studio">
         <div class="container">
           <h4 class="section-heading studio__heading">Наша<br>студия</h4>
           <!-- /.studio__heading-->
@@ -333,7 +332,7 @@
         <!-- /.container--><img class="studio__image" src="img/studio.jpg" alt="studio"><img class="studio__image studio__image_hidden" src="img/studio_reverse.jpg" alt="studio">
       </section>
       <!-- /.studio-->
-      <section class="career">
+      <section class="career" id="career">
         <div class="container">
           <h4 class="section-heading career__heading">Вакансии<br>и стажировка</h4>
           <!-- /.career__heading-->
@@ -358,7 +357,7 @@
         <!-- /.container-->
       </section>
       <!-- /.career-->
-      <section class="blog">
+      <section class="blog" id="blog">
         <div class="container">
           <h4 class="section-heading blog__heading">Блог</h4>
           <div class="blog__items">

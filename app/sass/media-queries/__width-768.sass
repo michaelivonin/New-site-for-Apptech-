@@ -3,25 +3,24 @@
   .header
     padding-top: 41px
 
-  .logo__icon
-    font-size: 0.462rem
+    &__icon-logo
+      font-size: 0.462rem
 
-  .header__button-menu
-    margin-top: 0
+      &:before
+        width: 12.8em !important
 
-  .main-heading
-
-    &__text
-      font-size: 4.875rem
-      line-height: 76px
+    &__button-menu
+      margin-top: 0
 
   .banner
     background-size: 813px 389px
-    background-position: -52px 0
+    background-position: -50px 0
     padding-top: 179px
     margin-top: calc(50vh - ((383px/2) + ((50px + 41px)/2)))
 
     &__main-heading
+      font-size: 4.875rem
+      line-height: 76px
       margin-bottom: 14px
 
     &__description
@@ -30,11 +29,7 @@
 
     &__button-go-down
       margin-top: 19px
-
-  .menu
-
-    &__link
-      font-size: 1.5rem
+      margin-left: 202px
 
   .column-menu
     padding: 25px
@@ -42,3 +37,6 @@
     &__menu
       margin-left: 25px
       top: calc(50% - (399px - 33px)/2)
+
+    &__link
+      font-size: 1.5rem

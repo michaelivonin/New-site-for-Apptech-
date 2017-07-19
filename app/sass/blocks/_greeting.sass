@@ -1,43 +1,21 @@
-%btn-default
-  background: none
-  border: none
-  outline: none
-  padding: 0
-
-  &:active
-    position: relative
-    left: 0
-
-    span, i
-      position: relative
-      left: 0
-
-  &:focus
-    span, i
-      position: relative
-      left: 0
-
-%btn-opacity
-  &:hover
-    opacity: 0.7
-
-%btn-animation
-  &:active
-    position: relative
-    top: 2px
-
 .greeting
   height: 100vh
   background: linear-gradient(to right, $purple, $purple2)
   position: relative
+  overflow: hidden
 
-.button-menu
-  @extend %btn-default
-  @extend %btn-opacity
-  @extend %btn-animation
+.header
+  padding-top: 52px
 
-  width: 34px
-  height: 21px
+  &__button-menu
+    @extend %btn-default
+    @extend %btn-opacity
+    @extend %btn-animation
+
+    width: 34px
+    height: 21px
+    float: right
+    margin-top: 14px
 
   &__bar
     display: block
@@ -53,44 +31,18 @@
     width: calc(100% - 10px)
     margin-left: 10px
 
-
-.header
-  padding-top: 52px
-
-  //&__logo
-    display: inline-block
-    width: 126px
-    height: 68px
-    background: url(../../img/apptech_logo.png) no-repeat
-
-  &__button-menu
-    float: right
-    margin-top: 14px
-
-.main-heading
-
-  &__text
-    color: $white2
-    font-size: 6.875rem
-    font-weight: 800
-    line-height: 105px
-
-.button-go-down
-  @extend %btn-default
-  @extend %btn-opacity
-  @extend %btn-animation
-
-  &__icon
-    color: $white2
-    font-size: 1.2rem
-
 .banner
   background: url(../../img/banner-bg__MacBook.png) no-repeat
-  background-position: 130px 0
+  background-position-x: 130px
+  width: 100vw
   padding-top: 211px
   margin-top: calc(50vh - ((530px/2) + ((68px + 52px)/2)))
 
   &__main-heading
+    color: $white2
+    font-size: 6.875rem
+    font-weight: 800
+    line-height: 105px
     //margin-bottom: 49px
     margin-bottom: 30px
 
@@ -102,10 +54,20 @@
     font-size: 1rem
     font-weight: 400
     line-height: 30.5px
+    float: left
 
   &__button-go-down
-    float: right
+    @extend %btn-default
+    @extend %btn-opacity
+    @extend %btn-animation
+
+    display: inline-block
     margin-top: 39px
+    margin-left: 622px
+
+  &__icon-go-down
+    color: $white2
+    font-size: 1.2rem
 
 .window-menu
   position: absolute
@@ -123,18 +85,18 @@
   align-items: center
   justify-content: center
 
-.button-close
-  @extend %btn-default
-  @extend %btn-animation
+.column-menu
+  width: 50%
+  height: 100%
+  float: right
+  background: linear-gradient(to right, $purple-middle, $purple2)
+  padding: 40px
+  position: relative
 
-  &:hover > .button-close__icon
-    color: $black
-
-  &__icon
-    font-size: 1.8rem
-    color: $white2
-
-.menu
+  &__menu
+    margin-left: 82px
+    position: absolute
+    top: calc(50% - (441px - 33px)/2)
 
   &__item
     margin-bottom: 33px
@@ -150,18 +112,15 @@
     &:focus
       color: $white2
 
-.column-menu
-  width: 50%
-  height: 100%
-  float: right
-  background: linear-gradient(to right, $purple-middle, $purple2)
-  padding: 40px
-  position: relative
-
   &__button-close
+    @extend %btn-default
+    @extend %btn-animation
+
     float: right
 
-  &__menu
-    margin-left: 82px
-    position: absolute
-    top: calc(50% - (441px - 33px)/2)
+    &:hover > .column-menu__icon-close
+      color: $black
+
+  &__icon-close
+    font-size: 1.8rem
+    color: $white2

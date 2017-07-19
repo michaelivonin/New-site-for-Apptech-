@@ -98,8 +98,26 @@
 
 
 
-  .icon.icon-php:before {
+  .icon.icon-logo:before {
       background-position: -0.2em -92.9em;
+      width: 12.6em;
+      height: 6.8em;
+  }
+
+
+
+
+  .icon.icon-logo_menu:before {
+      background-position: -0.2em -100.10000000000001em;
+      width: 10.6em;
+      height: 5.9em;
+  }
+
+
+
+
+  .icon.icon-php:before {
+      background-position: -0.2em -106.4em;
       width: 4.2em;
       height: 4.2em;
   }
@@ -108,27 +126,9 @@
 
 
   .icon.interface__icon:before {
-      background-position: -0.2em -97.5em;
+      background-position: -0.2em -111em;
       width: 24.1em;
       height: 19.4em;
-  }
-
-
-
-
-  .icon.logo__icon:before {
-      background-position: -0.2em -117.3em;
-      width: 12.6em;
-      height: 6.8em;
-  }
-
-
-
-
-  .icon.logo__icon_menu:before {
-      background-position: -0.2em -124.5em;
-      width: 10.6em;
-      height: 5.9em;
   }
 
 

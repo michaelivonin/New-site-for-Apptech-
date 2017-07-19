@@ -1,50 +1,49 @@
 .greeting
   .container
     header.header
-      a.logo.header__logo(href='#' title='Apptech.ru')
-        span.icon.logo__icon
-      button.button-menu.header__button-menu(type='button')
-        span.button-menu__bar
-        span.button-menu__bar.button-menu__bar_short
-        span.button-menu__bar.button-menu__bar_most-short
-      // /.button-menu
+      a.header__logo(href='#' title='Apptech.ru')
+        span.icon.icon-logo.header__icon-logo
+      button.header__button-menu(type='button')
+        span.header__bar
+        span.header__bar.header__bar_short
+        span.header__bar.header__bar_most-short
+      // /.header__button-menu
     // /.header
     .banner
-      h1.main-heading.banner__main-heading
-        span.main-heading__text Application
+      h1.banner__main-heading
+        | Application
         br
-        span.main-heading__text technology
-      // /.main-heading
-      p.banner__description
-        | Создаем успешные проекты, используя комплексный подход от&nbsp;зарождения идеи до&nbsp;результата
-      button.button-go-down.banner__button-go-down(type='button')
-        i.fa.fa-angle-double-down.button-go-down__icon(aria-hidden="true")
+        | technology
+      // /.banner__main-heading
+      p.banner__description Создаем успешные проекты, используя комплексный подход от&nbsp;зарождения идеи до&nbsp;результата
+      a.banner__button-go-down(href='#projects')
+        i.fa.fa-angle-double-down.banner__icon-go-down(aria-hidden="true")
     // /.banner
   // /.container
 // /.greeting
 .window-menu
   .column-logo
     a.logo_menu.column-logo__logo_menu(href='#')
-      span.icon.logo__icon_menu
+      span.icon.icon-logo_menu.column-logo__icon-logo_menu
   // /.column-logo
   .column-menu
-    button.button-close.column-menu__button-close(type='button')
-      i.fa.fa-times.button-close__icon(aria-hidden="true")
-    ul.menu.column-menu__menu
-      li.menu__item
-        a.menu__link(href='#') Портфолио
-      li.menu__item
-        a.menu__link(href='#') Услуги
-      li.menu__item
-        a.menu__link(href='#') Как мы работаем
-      li.menu__item
-        a.menu__link(href='#') Какой ваш проект
-      li.menu__item
-        a.menu__link(href='#') О студии
-      li.menu__item
-        a.menu__link(href='#') Вакансии и стажировка
-      li.menu__item
-        a.menu__link(href='#') Блог
-    // /.menu
+    button.column-menu__button-close(type='button')
+      i.fa.fa-times.column-menu__icon-close(aria-hidden="true")
+    ul.column-menu__menu
+      li.column-menu__item
+        a.column-menu__link(href='#projects') Портфолио
+      li.column-menu__item
+        a.column-menu__link(href='#services') Услуги
+      li.column-menu__item
+        a.column-menu__link(href='#how-we-work') Как мы работаем
+      li.column-menu__item
+        a.column-menu__link(href='#your-project') Какой ваш проект
+      li.column-menu__item
+        a.column-menu__link(href='#studio') О студии
+      li.column-menu__item
+        a.column-menu__link(href='#career') Вакансии и стажировка
+      li.column-menu__item
+        a.column-menu__link(href='#blog') Блог
+    // /.column-menu__menu
   // /.column-menu
 // /.window-menu
