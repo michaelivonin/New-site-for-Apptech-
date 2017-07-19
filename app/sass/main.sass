@@ -49,11 +49,13 @@ $purple-middle: rgb(98, 79, 164)
 $purple2: rgb(114, 78, 163)
 $purple3: rgb(118, 20, 248)
 $purple4: rgb(96, 108, 217)
+$purple5: rgb(117, 103, 173)
 $white: rgb(226, 219, 236)
 $white2: rgb(255, 255, 255)
 $white3: rgb(232, 232, 232)
 $white4: rgb(219, 219, 219)
 $white5: rgb(237, 237, 237)
+$white6: rgb(245, 244, 246)
 $black: rgb(28, 28, 28)
 $black2: rgb(40, 40, 40)
 $black3: rgb(45, 45, 45)
@@ -72,12 +74,15 @@ body
   font-family: 'Gilroy', sans-serif
 
   * a
+
     &:hover
       text-decoration: none
+
     &:focus
       text-decoration: none
+      color: initial
 
-// Include _header.sass
+// Include _greeting.sass
 @import 'blocks/greeting'
 
 // Include _content.sass

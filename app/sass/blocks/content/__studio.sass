@@ -1,0 +1,78 @@
+.studio
+  position: relative
+
+  &__text-block
+    position: relative
+    top: -33px
+    margin-left: 411px
+    font-family: 'GothamPro', sans-serif
+    color: $grey6
+    margin-bottom: 65px
+
+  &__description
+    font-size: 1.125rem
+    font-weight: 500
+    margin-bottom: 28px
+
+  &__text
+    width: 466px
+    font-size: 0.875rem
+    font-weight: 400
+    line-height: 1.714
+
+  &__text_below
+    margin-top: 26px
+
+  &__city-block
+    width: 181px
+    height: 110px
+    float: left
+    position: relative
+
+  &__city-block_margins
+    margin-left: 36.3%
+    margin-right: 82px
+
+  &__city-button
+    @extend %btn-default
+    @extend %btn-opacity
+    @extend %btn-animation
+
+    font-family: 'GothamPro', sans-serif
+    color: $purple4
+    font-size: 1rem
+    font-weight: 500
+    margin-top: 8px
+    margin-left: 20px
+
+  &__indicator
+    width: 5px
+    height: 30px
+    background: $purple4
+    position: absolute
+    top: 0
+    left: 0
+
+  &__connector
+    width: 1px
+    height: 80px
+    background: $black4
+    position: absolute
+    bottom: 0
+    left: 0
+    visibility: hidden
+
+  &__city-button_active
+    color: $black
+
+  &__indicator_active
+    background: $black3
+
+  &__connector_active
+    visibility: visible
+
+  &__image
+    width: 100%
+
+  &__image_hidden
+    display: none
