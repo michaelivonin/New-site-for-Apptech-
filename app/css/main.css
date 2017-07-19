@@ -366,6 +366,8 @@ body {
     margin-right: 100px; }
   .services__marketing {
     margin-top: 81px; }
+  .services .marketing__heading {
+    margin-right: 100px; }
   .services .marketing__make-list {
     border-bottom: none; }
   .services .marketing__use-list_second {
@@ -374,6 +376,109 @@ body {
     margin-left: 10px; }
   .services .marketing .use-list__horizontal-block {
     display: none; }
+
+.how-we-work {
+  background: #231f20;
+  padding-top: 116px;
+  padding-bottom: 40px;
+  padding-left: 101px;
+  position: relative; }
+  .how-we-work__heading {
+    color: #ededed;
+    font-size: 6.875rem;
+    font-weight: 700;
+    margin-bottom: 77px; }
+  .how-we-work__description {
+    width: 428px;
+    font-family: 'GothamPro', sans-serif;
+    color: #ededed;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 5px;
+    margin-bottom: 175px; }
+  .how-we-work__text_below {
+    display: inline-block;
+    margin-top: 27px; }
+  .how-we-work__dots-block {
+    width: 100vw;
+    height: 790px;
+    background: transparent;
+    background-image: -webkit-radial-gradient(#5e5c5d 6%, transparent 0);
+    background-image: -o-radial-gradient(#5e5c5d 6%, transparent 0);
+    background-image: radial-gradient(#5e5c5d 6%, transparent 0);
+    -webkit-background-size: 18px 18px;
+            background-size: 18px 18px;
+    position: absolute;
+    left: -80.3%;
+    bottom: 0; }
+  .how-we-work__steps {
+    float: right;
+    margin-left: 301px; }
+  .how-we-work__step {
+    display: inline-block;
+    width: 266px;
+    float: left;
+    margin-bottom: 107px; }
+  .how-we-work__step-description {
+    font-family: 'GothamPro', sans-serif;
+    color: #a8a8a8;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.714;
+    letter-spacing: -0.1px;
+    margin-top: 50px; }
+  .how-we-work__icon-1 {
+    position: relative;
+    left: -99px; }
+  .how-we-work__icon-2, .how-we-work__icon-3, .how-we-work__icon-4, .how-we-work__icon-5 {
+    position: relative;
+    left: -89px; }
+  .how-we-work__step_margins {
+    margin-left: 19px;
+    margin-right: 21px; }
+  .how-we-work__step_margin-left {
+    margin-left: 19px; }
+
+.your-project {
+  background: white;
+  padding: 149px 0; }
+  .your-project__heading {
+    color: #1c1c1c;
+    font-size: 6.875rem;
+    font-weight: 700;
+    line-height: 0.909;
+    margin-left: 101px;
+    margin-bottom: 78px; }
+  .your-project__item {
+    display: inline-block;
+    float: left;
+    width: 357px; }
+  .your-project__item-heading {
+    color: #1c1c1c;
+    font-size: 1.625rem;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 18px; }
+  .your-project__item-description {
+    font-family: 'GothamPro', sans-serif;
+    color: #4e4e4e;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.714;
+    margin-bottom: 57px; }
+  .your-project__item-description_margin-top {
+    margin-top: 44px; }
+  .your-project__item-description_margin-bottom {
+    margin-bottom: 34px; }
+  .your-project__item-link {
+    font-family: 'GothamPro', sans-serif;
+    color: #3c3c3c;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #606cd9;
+    padding-bottom: 6px; }
 
 .icon {
   font-size: 10px; }
@@ -384,8 +489,8 @@ body {
   display: inline-block;
   background-image: url("../img/svg-sprite.svg");
   background-repeat: no-repeat;
-  -webkit-background-size: 24.5em 170.2em;
-          background-size: 24.5em 170.2em; }
+  -webkit-background-size: 24.5em 229.6em;
+          background-size: 24.5em 229.6em; }
 
 .no-svg .icon:before {
   background-image: url("../img/svg-sprite.png"); }
@@ -400,70 +505,85 @@ body {
   width: 24.1em;
   height: 19.4em; }
 
-.icon.icon-html5:before {
+.icon.how-we-work__icon-1:before {
   background-position: -0.2em -39.800000000000004em;
+  width: 18.4em;
+  height: 8.4em; }
+
+.icon.how-we-work__icon-2:before {
+  background-position: -0.2em -48.6em;
+  width: 17.4em;
+  height: 8.4em; }
+
+.icon.how-we-work__icon-3:before {
+  background-position: -0.2em -57.400000000000006em;
+  width: 17.7em;
+  height: 8.4em; }
+
+.icon.how-we-work__icon-4:before {
+  background-position: -0.2em -66.2em;
+  width: 17.8em;
+  height: 8.4em; }
+
+.icon.how-we-work__icon-5:before {
+  background-position: -0.2em -75em;
+  width: 17.6em;
+  height: 8.4em; }
+
+.icon.icon-html5:before {
+  background-position: -0.2em -83.8em;
   width: 4.2em;
   height: 4.2em; }
 
 .icon.icon-js:before {
-  background-position: -0.2em -44.400000000000006em;
+  background-position: -0.2em -88.4em;
   width: 4.1em;
   height: 4.1em; }
 
 .icon.icon-php:before {
-  background-position: -0.2em -48.900000000000006em;
+  background-position: -0.2em -92.9em;
   width: 4.2em;
   height: 4.2em; }
 
 .icon.interface__icon:before {
-  background-position: -0.2em -53.5em;
+  background-position: -0.2em -97.5em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.logo__icon:before {
-  background-position: -0.2em -73.3em;
+  background-position: -0.2em -117.3em;
   width: 12.6em;
   height: 6.8em; }
 
 .icon.logo__icon_menu:before {
-  background-position: -0.2em -80.5em;
+  background-position: -0.2em -124.5em;
   width: 10.6em;
   height: 5.9em; }
 
 .icon.marketing__icon:before {
-  background-position: -0.2em -86.8em;
+  background-position: -0.2em -130.79999999999998em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.mobile__icon:before {
-  background-position: -0.2em -106.60000000000001em;
+  background-position: -0.2em -150.6em;
   width: 24.1em;
   height: 19.4em; }
 
-.icon.step__icon-1:before {
-  background-position: -0.2em -126.4em;
-  width: 18.4em;
-  height: 8.4em; }
+.icon.your-project__icon-briefcase:before {
+  background-position: -0.2em -170.39999999999998em;
+  width: 24.1em;
+  height: 19.4em; }
 
-.icon.step__icon-2:before {
-  background-position: -0.2em -135.2em;
-  width: 17.4em;
-  height: 8.4em; }
+.icon.your-project__icon-rocket:before {
+  background-position: -0.2em -190.2em;
+  width: 24.1em;
+  height: 19.4em; }
 
-.icon.step__icon-3:before {
-  background-position: -0.2em -144em;
-  width: 17.7em;
-  height: 8.4em; }
-
-.icon.step__icon-4:before {
-  background-position: -0.2em -152.79999999999998em;
-  width: 17.8em;
-  height: 8.4em; }
-
-.icon.step__icon-5:before {
-  background-position: -0.2em -161.6em;
-  width: 17.6em;
-  height: 8.4em; }
+.icon.your-project__icon-tie:before {
+  background-position: -0.2em -210em;
+  width: 24.1em;
+  height: 19.4em; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .banner {
