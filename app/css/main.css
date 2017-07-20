@@ -254,6 +254,7 @@ body {
   border-bottom: 2px solid #1c1c1c;
   padding-bottom: 6px;
   margin-bottom: 40px;
+  margin-right: 300px;
   float: left; }
 
 .services .design__make-list, .services .development__make-list, .services .mobile__make-list, .services .interface__make-list, .services .marketing__make-list {
@@ -305,7 +306,7 @@ body {
   font-family: 'GothamPro', sans-serif;
   color: #939393;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
@@ -349,8 +350,6 @@ body {
     margin-bottom: 124px; }
   .services__development {
     margin-top: 81px; }
-  .services .development__heading {
-    margin-right: 100px; }
   .services .development .make-list__item {
     margin-bottom: 17px; }
   .services .development .make-list__text {
@@ -361,12 +360,8 @@ body {
     margin-top: 81px; }
   .services__interface {
     margin-top: 81px; }
-  .services .interface__heading {
-    margin-right: 100px; }
   .services__marketing {
     margin-top: 81px; }
-  .services .marketing__heading {
-    margin-right: 100px; }
   .services .marketing__make-list {
     border-bottom: none; }
   .services .marketing__use-list_second {
@@ -453,6 +448,9 @@ body {
 .your-project {
   padding: 149px 0;
   position: relative; }
+  .your-project__container {
+    position: relative;
+    z-index: 1; }
   .your-project__heading {
     color: #1c1c1c;
     margin-bottom: 78px; }
@@ -463,14 +461,15 @@ body {
     width: 295px; }
   .your-project__item_width-2 {
     width: 358px;
-    margin-left: 102px;
-    margin-right: 41px; }
+    margin-left: 118px;
+    margin-right: 55px; }
   .your-project__item_width-3 {
     width: 342px; }
   .your-project__item-heading {
     color: #1c1c1c;
     font-size: 1.625rem;
     font-weight: 700;
+    line-height: 1.1;
     margin-top: 35px;
     margin-bottom: 18px; }
   .your-project__item-description {
@@ -485,7 +484,7 @@ body {
   .your-project__item-description_margin-bottom {
     margin-bottom: 34px; }
   .your-project__dots-block {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background: transparent;
     background-image: -webkit-radial-gradient(#e8e8e8 6%, transparent 0);
@@ -495,8 +494,7 @@ body {
             background-size: 18px 18px;
     position: absolute;
     left: 50%;
-    bottom: 0;
-    z-index: -1; }
+    bottom: 0; }
 
 .studio {
   position: relative; }
@@ -524,7 +522,7 @@ body {
     float: left;
     position: relative; }
   .studio__city-block_margins {
-    margin-left: 36.3%;
+    margin-left: 414px;
     margin-right: 82px; }
   .studio__city-button {
     font-family: 'GothamPro', sans-serif;
@@ -550,6 +548,8 @@ body {
     visibility: hidden; }
   .studio__city-button_active {
     color: #1c1c1c; }
+    .studio__city-button_active:hover {
+      opacity: 1; }
   .studio__indicator_active {
     background: #2d2d2d; }
   .studio__connector_active {
@@ -560,8 +560,7 @@ body {
     display: none; }
 
 .career {
-  padding-top: 150px;
-  padding-bottom: 25px; }
+  padding-top: 150px; }
   .career__jobs {
     background: #f5f4f6;
     width: 100%;
@@ -574,6 +573,8 @@ body {
   .career__vacancy {
     width: 50%;
     float: left; }
+  .career__vacancy_padding-left {
+    padding-left: 28px; }
   .career__indicator {
     width: 31px;
     height: 3px;
@@ -605,7 +606,7 @@ body {
 
 .blog {
   padding-top: 99px;
-  padding-bottom: 150px; }
+  padding-bottom: 130px; }
   .blog__heading {
     color: #1c1c1c;
     margin-bottom: 88px; }
@@ -852,6 +853,13 @@ body {
     width: 1184px;
     padding: 0; } }
 
+@media (min-width: 1200px) and (max-width: 1279px) {
+  .career__description_width_margin-bottom-2 {
+    width: 458px; }
+  .your-project__item_width-2 {
+    margin-left: 102px;
+    margin-right: 41px; } }
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .banner {
     background-position-x: -70px; }
@@ -863,8 +871,48 @@ body {
     font-size: 5.625rem;
     line-height: 1;
     margin-left: 84px; }
-  .blog {
+  .your-project {
     padding: 60px 0; }
+    .your-project__heading {
+      margin-bottom: 33px; }
+    .your-project__item_width-2 {
+      width: 294px;
+      margin-left: 46px;
+      margin-right: 49px; }
+    .your-project__item_width-3 {
+      width: 246px; }
+    .your-project__icon-rocket, .your-project__icon-tie, .your-project__icon-briefcase {
+      font-size: 0.516rem; }
+    .your-project__item-heading {
+      margin-top: 30px; }
+    .your-project__item-description {
+      margin-bottom: 75px; }
+    .your-project__item-description_margin-bottom {
+      margin-bottom: 27px; }
+    .your-project__dots-block {
+      left: 610px; }
+  .studio__text-block {
+    top: -28px;
+    margin-left: 255px;
+    margin-bottom: 47px; }
+  .studio__city-block_margins {
+    margin-left: 258px;
+    margin-right: 68px; }
+  .career {
+    padding-top: 60px; }
+    .career__jobs {
+      padding: 50px 84px;
+      -webkit-box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.07);
+              box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.07); }
+    .career__description_width_margin-bottom-1 {
+      width: 378px;
+      margin-bottom: 38px; }
+    .career__description_width_margin-bottom-2 {
+      width: 387px;
+      margin-bottom: 86px; }
+  .blog {
+    padding-top: 41px;
+    padding-bottom: 60px; }
     .blog__heading {
       margin-bottom: 48px; }
     .blog__item {
@@ -924,6 +972,8 @@ body {
 @media (max-width: 767px) {
   body {
     min-width: 320px; }
+  .container {
+    padding: 0 10px; }
   .header {
     padding-top: 20px; }
     .header__icon-logo {
@@ -977,6 +1027,83 @@ body {
     font-size: 3.125rem;
     line-height: 0.9;
     margin-left: 0; }
+  .your-project {
+    padding-top: 50px;
+    padding-bottom: 16px; }
+    .your-project__heading {
+      margin-bottom: 39px; }
+    .your-project__item {
+      margin-bottom: 41px; }
+    .your-project__item_width-1 {
+      width: 100%; }
+    .your-project__item_width-2 {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0; }
+    .your-project__item_width-3 {
+      width: 100%; }
+    .your-project__icon-rocket, .your-project__icon-tie, .your-project__icon-briefcase {
+      font-size: 0.3rem; }
+    .your-project__item-heading {
+      width: 300px;
+      margin-top: 26px; }
+    .your-project__item-description {
+      margin-top: 14px;
+      margin-bottom: 28px; }
+    .your-project__item-description_margin-bottom {
+      margin-bottom: 27px; }
+    .your-project__dots-block {
+      left: 320px; }
+  .studio {
+    padding-top: 26px; }
+    .studio__text-block {
+      width: auto;
+      top: -11px;
+      margin-left: 41px;
+      margin-bottom: 27px; }
+    .studio__city-block {
+      height: 30px;
+      margin-left: 44px;
+      float: none;
+      margin-bottom: 20px; }
+    .studio__city-block_margins {
+      margin-left: 44px;
+      margin-right: 0;
+      margin-bottom: 10px; }
+    .studio__text {
+      line-height: 1.571;
+      width: 100%; }
+    .studio__connector {
+      display: none; }
+  .career {
+    padding-top: 58px; }
+    .career__jobs {
+      width: -webkit-calc(100vw - 17px);
+      width: calc(100vw - 17px);
+      margin-left: -10px;
+      padding: 40px 10px;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      top: -8px; }
+    .career__vacancy {
+      width: 100%; }
+    .career__vacancy_padding-left {
+      padding-left: 0;
+      margin-top: 40px; }
+    .career__indicator {
+      display: none; }
+    .career__vacancy-heading {
+      margin-bottom: 9px; }
+    .career__city {
+      margin-bottom: 17px; }
+    .career__description {
+      line-height: 1.571; }
+    .career__description_width_margin-bottom-1 {
+      width: auto;
+      margin-bottom: 22px; }
+    .career__description_width_margin-bottom-2 {
+      width: auto;
+      margin-bottom: 22px; }
   .blog {
     padding: 50px 0; }
     .blog__heading {
@@ -994,8 +1121,7 @@ body {
       margin-top: 19px;
       margin-bottom: 27px; }
   .footer {
-    padding-top: 40px;
-    padding-bottom: 0; }
+    padding: 40px 0; }
     .footer__container {
       position: relative; }
     .footer__logo {

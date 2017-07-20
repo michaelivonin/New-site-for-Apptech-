@@ -8,19 +8,19 @@ section.studio#studio
     .studio__text-block
       p.studio__description Мы - команда
       p.studio__text Нам интересны сложные проекты. Мы умеем воплощать новые идеи в жизнь. Любим экспериментировать в разработке, проектировании и продвижении.
-      p.studio__text.studio__text_below Считаем, что ваша Идея должна приносить пользу и показывать
+      p.studio__text.studio__text_below Считаем, что ваша Идея должна приносить пользу и показывать результаты.
     // /.studio__text-block
     .studio__city-block.studio__city-block_margins
-      button.studio__city-button.studio__city-button_active(type='button') Санкт-Петербург
+      button.studio__city-button.studio__city-button_active#SP(type='button' disabled) Санкт-Петербург
       .studio__indicator.studio__indicator_active
       .studio__connector.studio__connector_active
     // /.studio__city-block
     .studio__city-block
-      button.studio__city-button(type='button') Омск
+      button.studio__city-button#Omsk(type='button') Омск
       .studio__indicator
       .studio__connector
     // /.studio__city-block
   // /.container
-  img.studio__image(src='img/studio.jpg' alt='studio')
+  img.studio__image.studio__image_visible(src='img/studio.jpg' alt='studio')
   img.studio__image.studio__image_hidden(src='img/studio_reverse.jpg' alt='studio')
 // /.studio
