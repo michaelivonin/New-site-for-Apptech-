@@ -4,14 +4,16 @@
   padding-bottom: 67px
   font-family: 'GothamPro', sans-serif
   position: relative
+  overflow: hidden
 
   &__container
     position: relative
-    z-index: 1
 
   &__logo
     margin-right: 505px
     float: left
+    position: relative
+    z-index: 1
 
   &__contacts
     float: left
@@ -66,10 +68,10 @@
 
   &__dots-block
     width: 100vw
-    height: 100%
+    height: 100vh
     background: transparent
-    background-image: radial-gradient($grey5 6%, transparent 0)
+    background-image: radial-gradient($grey6 6%, transparent 0)
     background-size: 18px 18px
     position: absolute
-    top: 0
-    left: -81.3%
+    top: -50%
+    right: 85.3%

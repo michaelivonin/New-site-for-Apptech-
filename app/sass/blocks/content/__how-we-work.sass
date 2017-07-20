@@ -3,7 +3,6 @@
   padding-top: 116px
   padding-bottom: 40px
   position: relative
-  //z-index: -2
 
   &__heading
     color: $white5
@@ -21,21 +20,12 @@
 
   &__text_below
     display: inline-block
-    margin-top: 27px
-
-  &__dots-block
-    width: 100vw
-    height: 790px
-    background: transparent
-    background-image: radial-gradient($grey5 6%, transparent 0)
-    background-size: 18px 18px
-    position: absolute
-    left: -80.3%
-    bottom: 0
-    //z-index: -1
+    margin-top: 10px
 
   &__steps
     float: right
+    position: relative
+    z-index: 1
 
   &__step
     display: inline-block
@@ -66,3 +56,13 @@
 
   &__step_margin-left
     margin-left: 19px
+
+  &__dots-block
+    width: 100vw
+    height: 773px
+    background: transparent
+    background-image: radial-gradient($grey6 6%, transparent 0)
+    background-size: 18px 18px
+    position: absolute
+    right: 79%
+    bottom: 0
