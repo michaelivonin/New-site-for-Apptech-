@@ -17,26 +17,8 @@
 
 
 
-  .icon.design__icon:before {
+  .icon.icon-1:before {
       background-position: -0.2em -0.2em;
-      width: 24.1em;
-      height: 19.4em;
-  }
-
-
-
-
-  .icon.development__icon:before {
-      background-position: -0.2em -20em;
-      width: 24.1em;
-      height: 19.4em;
-  }
-
-
-
-
-  .icon.how-we-work__icon-1:before {
-      background-position: -0.2em -39.800000000000004em;
       width: 18.4em;
       height: 8.4em;
   }
@@ -44,8 +26,8 @@
 
 
 
-  .icon.how-we-work__icon-2:before {
-      background-position: -0.2em -48.6em;
+  .icon.icon-2:before {
+      background-position: -0.2em -9em;
       width: 17.4em;
       height: 8.4em;
   }
@@ -53,8 +35,8 @@
 
 
 
-  .icon.how-we-work__icon-3:before {
-      background-position: -0.2em -57.400000000000006em;
+  .icon.icon-3:before {
+      background-position: -0.2em -17.8em;
       width: 17.7em;
       height: 8.4em;
   }
@@ -62,8 +44,8 @@
 
 
 
-  .icon.how-we-work__icon-4:before {
-      background-position: -0.2em -66.2em;
+  .icon.icon-4:before {
+      background-position: -0.2em -26.599999999999998em;
       width: 17.8em;
       height: 8.4em;
   }
@@ -71,8 +53,8 @@
 
 
 
-  .icon.how-we-work__icon-5:before {
-      background-position: -0.2em -75em;
+  .icon.icon-5:before {
+      background-position: -0.2em -35.400000000000006em;
       width: 17.6em;
       height: 8.4em;
   }
@@ -80,8 +62,35 @@
 
 
 
-  .icon.icon-html5:before {
+  .icon.icon-briefcase:before {
+      background-position: -0.2em -44.2em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
+  .icon.icon-design:before {
+      background-position: -0.2em -64em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
+  .icon.icon-development:before {
       background-position: -0.2em -83.8em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
+  .icon.icon-html5:before {
+      background-position: -0.2em -103.60000000000001em;
       width: 4.2em;
       height: 4.2em;
   }
@@ -89,8 +98,17 @@
 
 
 
+  .icon.icon-interface:before {
+      background-position: -0.2em -108.2em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
   .icon.icon-js:before {
-      background-position: -0.2em -88.4em;
+      background-position: -0.2em -128em;
       width: 4.1em;
       height: 4.1em;
   }
@@ -99,7 +117,7 @@
 
 
   .icon.icon-logo:before {
-      background-position: -0.2em -92.9em;
+      background-position: -0.2em -132.5em;
       width: 12.6em;
       height: 6.8em;
   }
@@ -108,7 +126,7 @@
 
 
   .icon.icon-logo_menu:before {
-      background-position: -0.2em -100.10000000000001em;
+      background-position: -0.2em -139.7em;
       width: 10.6em;
       height: 5.9em;
   }
@@ -116,8 +134,26 @@
 
 
 
+  .icon.icon-marketing:before {
+      background-position: -0.2em -146em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
+  .icon.icon-mobile:before {
+      background-position: -0.2em -165.79999999999998em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
   .icon.icon-php:before {
-      background-position: -0.2em -106.4em;
+      background-position: -0.2em -185.6em;
       width: 4.2em;
       height: 4.2em;
   }
@@ -125,43 +161,7 @@
 
 
 
-  .icon.interface__icon:before {
-      background-position: -0.2em -111em;
-      width: 24.1em;
-      height: 19.4em;
-  }
-
-
-
-
-  .icon.marketing__icon:before {
-      background-position: -0.2em -130.79999999999998em;
-      width: 24.1em;
-      height: 19.4em;
-  }
-
-
-
-
-  .icon.mobile__icon:before {
-      background-position: -0.2em -150.6em;
-      width: 24.1em;
-      height: 19.4em;
-  }
-
-
-
-
-  .icon.your-project__icon-briefcase:before {
-      background-position: -0.2em -170.39999999999998em;
-      width: 24.1em;
-      height: 19.4em;
-  }
-
-
-
-
-  .icon.your-project__icon-rocket:before {
+  .icon.icon-rocket:before {
       background-position: -0.2em -190.2em;
       width: 24.1em;
       height: 19.4em;
@@ -170,7 +170,7 @@
 
 
 
-  .icon.your-project__icon-tie:before {
+  .icon.icon-tie:before {
       background-position: -0.2em -210em;
       width: 24.1em;
       height: 19.4em;
