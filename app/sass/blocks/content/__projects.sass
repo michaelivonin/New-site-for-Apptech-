@@ -24,35 +24,40 @@
     padding-left: 25px
     float: right
 
-%projects__item_default
-  border-bottom: 1px solid $white4
-  margin-bottom: 127px
-  position: relative
+  &__item
+    border-bottom: 1px solid $white4
+    margin-bottom: 127px
+    position: relative
 
-  .item__heading
+  &__item-heading
     color: $black
     font-size: 1.875rem
     font-weight: 700
     margin-bottom: 25px
 
-  .item__description
+  &__description
     width: 275px
     color: $grey
     font-size: 0.875rem
-    line-height: 21.6px
+    line-height: 1.714
     margin-bottom: 41px
 
-  .item__icons
+  &__icons
     margin-bottom: 43px
 
-    .icon
-      margin-right: 15px
+  &__icon-php, &__icon-js, &__icon-html5
+    margin-right: 15px
 
-  .item__image
+  &__image
     position: absolute
     bottom: 0
     right: 0
+    z-index: 1
 
-
-.item
-  @extend %projects__item_default
+  &__bg-block
+    width: 158px
+    height: 249px
+    background: $white7
+    position: absolute
+    right: 51px
+    bottom: 0

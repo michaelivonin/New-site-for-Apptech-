@@ -218,30 +218,37 @@ body {
     width: 50%;
     padding-left: 25px;
     float: right; }
-
-.item {
-  border-bottom: 1px solid #dbdbdb;
-  margin-bottom: 127px;
-  position: relative; }
-  .item .item__heading {
+  .projects__item {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 127px;
+    position: relative; }
+  .projects__item-heading {
     color: #1c1c1c;
     font-size: 1.875rem;
     font-weight: 700;
     margin-bottom: 25px; }
-  .item .item__description {
+  .projects__description {
     width: 275px;
     color: #4e4e4e;
     font-size: 0.875rem;
-    line-height: 21.6px;
+    line-height: 1.714;
     margin-bottom: 41px; }
-  .item .item__icons {
+  .projects__icons {
     margin-bottom: 43px; }
-    .item .item__icons .icon {
-      margin-right: 15px; }
-  .item .item__image {
+  .projects__icon-php, .projects__icon-js, .projects__icon-html5 {
+    margin-right: 15px; }
+  .projects__image {
     position: absolute;
     bottom: 0;
-    right: 0; }
+    right: 0;
+    z-index: 1; }
+  .projects__bg-block {
+    width: 158px;
+    height: 249px;
+    background: #f2f2f2;
+    position: absolute;
+    right: 51px;
+    bottom: 0; }
 
 .services__design, .services__development, .services__mobile, .services__interface, .services__marketing {
   position: relative;
@@ -882,6 +889,19 @@ body {
     font-size: 5.625rem;
     line-height: 1;
     margin-left: 84px; }
+  .projects {
+    padding-top: 50px; }
+    .projects__heading {
+      margin-bottom: 68px; }
+    .projects__item {
+      height: 340px; }
+    .projects__icons {
+      margin-bottom: 0;
+      position: absolute;
+      top: 0;
+      right: 0; }
+    .projects__image {
+      right: 50%; }
   .how-we-work {
     padding-top: 60px;
     padding-bottom: 57px; }
@@ -891,9 +911,23 @@ body {
       margin-left: 88px;
       margin-bottom: 87px; }
     .how-we-work__steps {
-      width: 588px; }
+      width: 609px; }
+    .how-we-work__step {
+      height: 229px;
+      margin-bottom: 37px; }
+    .how-we-work__step_margins {
+      margin-right: 0;
+      margin-left: 0; }
+    .how-we-work__step_margin-left {
+      margin-left: 0;
+      margin-bottom: 0; }
+    .how-we-work__step_margin-right {
+      margin-right: 74px; }
+    .how-we-work__step-description {
+      margin-top: 30px; }
     .how-we-work__dots-block {
-      right: 82%; }
+      height: 811px;
+      right: 89%; }
   .your-project {
     padding: 60px 0; }
     .your-project__heading {
@@ -1052,6 +1086,38 @@ body {
     font-size: 3.125rem;
     line-height: 0.9;
     margin-left: 0; }
+  .how-we-work {
+    padding-top: 50px;
+    padding-bottom: 47px; }
+    .how-we-work__heading {
+      margin-bottom: 30px; }
+    .how-we-work__description {
+      width: auto;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-left: 0;
+      margin-bottom: 37px; }
+    .how-we-work__new-line {
+      display: none; }
+    .how-we-work__steps {
+      width: 261px;
+      float: none;
+      margin-left: 13%; }
+    .how-we-work__step {
+      margin-bottom: 40px; }
+    .how-we-work__step_margins {
+      margin-right: 0;
+      margin-left: 0; }
+    .how-we-work__step_margin-left {
+      margin-left: 0;
+      margin-bottom: 0; }
+    .how-we-work__step-description {
+      margin-top: 30px;
+      line-height: 1.571; }
+    .how-we-work__dots-block {
+      height: 81%;
+      left: 315px;
+      right: 0; }
   .your-project {
     padding-top: 50px;
     padding-bottom: 16px; }
