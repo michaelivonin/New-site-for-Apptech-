@@ -6,13 +6,19 @@ $(function() {
   // Show/hide menu
   $('.header__button-menu').click(function() {
     $('.window-menu').show();
+    $('body').addClass('fixed');
   });
 
   $('.column-menu__button-close').click(function() {
     $('.window-menu').hide();
+    $('body').removeClass('fixed');
   });
 
   $('.column-menu__link').click(function() {
+    setTimeout(function() {
+      $('body').removeClass('fixed');
+    }, 750);
+
     setTimeout(function() {
       $('.window-menu').hide();
     }, 1000);
@@ -23,10 +29,38 @@ $(function() {
   $('.column-menu__link, .banner__button-go-down').click(function(e) {
     e.preventDefault();
 
+    var delay = 1000;
+
+    switch ($(this).parent().index('li')) {
+      case 1:
+        delay += 250;
+        break;
+
+      case 2:
+        delay += 500;
+        break;
+
+      case 3:
+        delay += 750;
+        break;
+
+      case 4:
+        delay += 1000;
+        break;
+
+      case 5:
+        delay += 1125;
+        break;
+
+      case 6:
+        delay += 1200;
+        break;
+    }
+
     var target = $(this.hash);
     $('html, body').stop().animate({
       'scrollTop': target.offset().top
-    }, 1000);
+    }, delay);
   });
 
 

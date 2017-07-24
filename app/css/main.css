@@ -48,6 +48,9 @@ body {
     text-decoration: none;
     color: initial; }
 
+.fixed {
+  overflow: hidden; }
+
 .header__button-menu, .banner__button-go-down, .column-menu__button-close, .studio__city-button {
   background: none;
   border: none;
@@ -406,11 +409,11 @@ body {
     width: 100vw;
     height: 773px;
     background: transparent;
-    background-image: -webkit-radial-gradient(#3c3c3c 6%, transparent 0);
-    background-image: -o-radial-gradient(#3c3c3c 6%, transparent 0);
-    background-image: radial-gradient(#3c3c3c 6%, transparent 0);
-    -webkit-background-size: 18px 18px;
-            background-size: 18px 18px;
+    background-image: -webkit-radial-gradient(#5e5c5d 6%, transparent 0);
+    background-image: -o-radial-gradient(#5e5c5d 6%, transparent 0);
+    background-image: radial-gradient(#5e5c5d 6%, transparent 0);
+    -webkit-background-size: 19px 18px;
+            background-size: 19px 18px;
     position: absolute;
     right: 79%;
     bottom: 0; }
@@ -468,6 +471,8 @@ body {
     margin-top: 44px; }
   .your-project__item-description_margin-bottom {
     margin-bottom: 34px; }
+  .your-project__item-link {
+    display: none; }
   .your-project__dots-block {
     width: 100%;
     height: 100%;
@@ -516,6 +521,8 @@ body {
     font-weight: 500;
     margin-top: 8px;
     margin-left: 20px; }
+    .studio__city-button:hover + .studio__indicator {
+      opacity: 0.7; }
   .studio__indicator {
     width: 5px;
     height: 30px;
@@ -534,6 +541,8 @@ body {
   .studio__city-button_active {
     color: #1c1c1c; }
     .studio__city-button_active:hover {
+      opacity: 1; }
+    .studio__city-button_active:hover + .studio__indicator {
       opacity: 1; }
   .studio__indicator_active {
     background: #2d2d2d; }
@@ -554,7 +563,8 @@ body {
             box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.1);
     position: relative;
     top: -19px;
-    float: left; }
+    float: left;
+    margin-bottom: 40px; }
   .career__vacancy {
     width: 50%;
     float: left; }
@@ -590,7 +600,7 @@ body {
     margin-bottom: 76px; }
 
 .blog {
-  padding-top: 99px;
+  padding-top: 62px;
   padding-bottom: 130px; }
   .blog__heading {
     color: #1c1c1c;
@@ -647,6 +657,8 @@ body {
     width: 314px; }
   .blog__description_width-3 {
     width: 323px; }
+  .blog__link {
+    display: none; }
 
 .footer {
   background: #231f20;
@@ -721,9 +733,9 @@ body {
     width: 100vw;
     height: 100vh;
     background: transparent;
-    background-image: -webkit-radial-gradient(#3c3c3c 6%, transparent 0);
-    background-image: -o-radial-gradient(#3c3c3c 6%, transparent 0);
-    background-image: radial-gradient(#3c3c3c 6%, transparent 0);
+    background-image: -webkit-radial-gradient(#5e5c5d 6%, transparent 0);
+    background-image: -o-radial-gradient(#5e5c5d 6%, transparent 0);
+    background-image: radial-gradient(#5e5c5d 6%, transparent 0);
     -webkit-background-size: 18px 18px;
             background-size: 18px 18px;
     position: absolute;
@@ -965,7 +977,8 @@ body {
     .career__jobs {
       padding: 50px 84px;
       -webkit-box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.07);
-              box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.07); }
+              box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.07);
+      margin-bottom: 20px; }
     .career__description_width_margin-bottom-1 {
       width: 378px;
       margin-bottom: 38px; }
@@ -1119,8 +1132,7 @@ body {
       z-index: 1; }
     .projects__image {
       height: 235px;
-      right: -webkit-calc(50% - 105px);
-      right: calc(50% - 105px); }
+      left: 36px; }
   .services {
     padding-top: 0;
     padding-bottom: 0; }
@@ -1191,6 +1203,7 @@ body {
       margin-bottom: 30px; }
     .how-we-work__description {
       width: auto;
+      max-width: 428px;
       font-size: 1rem;
       line-height: 1.5;
       margin-left: 0;
@@ -1214,7 +1227,7 @@ body {
       line-height: 1.571; }
     .how-we-work__dots-block {
       height: 81%;
-      left: 315px;
+      left: 320px;
       right: 0; }
   .your-project {
     padding-top: 50px;
@@ -1222,15 +1235,11 @@ body {
     .your-project__heading {
       margin-bottom: 39px; }
     .your-project__item {
-      margin-bottom: 41px; }
-    .your-project__item_width-1 {
+      margin-bottom: 41px;
       width: 100%; }
     .your-project__item_width-2 {
-      width: 100%;
       margin-left: 0;
       margin-right: 0; }
-    .your-project__item_width-3 {
-      width: 100%; }
     .your-project__icon-rocket, .your-project__icon-tie, .your-project__icon-briefcase {
       font-size: 0.3rem; }
     .your-project__item-heading {
@@ -1238,7 +1247,8 @@ body {
       margin-top: 26px; }
     .your-project__item-description {
       margin-top: 14px;
-      margin-bottom: 28px; }
+      margin-bottom: 28px;
+      width: 292px; }
     .your-project__item-description_margin-bottom {
       margin-bottom: 27px; }
     .your-project__dots-block {
@@ -1246,7 +1256,7 @@ body {
   .studio {
     padding-top: 26px; }
     .studio__text-block {
-      width: auto;
+      width: 261px;
       top: -11px;
       margin-left: 41px;
       margin-bottom: 27px; }
@@ -1273,7 +1283,8 @@ body {
       padding: 40px 10px;
       -webkit-box-shadow: none;
               box-shadow: none;
-      top: -8px; }
+      top: -8px;
+      margin-bottom: -8px; }
     .career__vacancy {
       width: 100%; }
     .career__vacancy_padding-left {
@@ -1286,12 +1297,11 @@ body {
     .career__city {
       margin-bottom: 17px; }
     .career__description {
-      line-height: 1.571; }
+      line-height: 1.571;
+      width: 298px; }
     .career__description_width_margin-bottom-1 {
-      width: auto;
       margin-bottom: 22px; }
     .career__description_width_margin-bottom-2 {
-      width: auto;
       margin-bottom: 22px; }
   .blog {
     padding: 50px 0; }
