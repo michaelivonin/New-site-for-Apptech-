@@ -48,10 +48,18 @@
   &__icon-js, &__icon-html5
     margin-left: 15px
 
+  //@import 'icon-php'
+
   &__image
     position: absolute
     bottom: 0
     right: 0
 
-  &__img-ngtron, &__img-instagram, &__img-agroweb, &__img-plafond, &__img-cashbox9
+    &:hover
+      box-shadow: 0 0 10px #808080
+      transform: translateY(2px)
+      transition: 0.3s ease-out
+      z-index: 3
+
+  &__img-instagram, &__img-agroweb, &__img-plafond, &__img-cashbox9
     right: 11px
