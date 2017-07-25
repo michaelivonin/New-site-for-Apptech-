@@ -8,7 +8,7 @@
     display: inline-block;
     background-image: url("../img/svg-sprite.svg");
     background-repeat: no-repeat;
-    background-size: 24.5em 229.6em;
+    background-size: 24.5em 233.9em;
 }
 
 .no-svg .icon:before {
@@ -116,8 +116,17 @@
 
 
 
-  .icon.icon-logo:before {
+  .icon.icon-js-text:before {
       background-position: -0.2em -132.5em;
+      width: 2.4em;
+      height: 1.7em;
+  }
+
+
+
+
+  .icon.icon-logo:before {
+      background-position: -0.2em -134.6em;
       width: 12.6em;
       height: 6.8em;
   }
@@ -126,7 +135,7 @@
 
 
   .icon.icon-logo_menu:before {
-      background-position: -0.2em -139.7em;
+      background-position: -0.2em -141.79999999999998em;
       width: 10.6em;
       height: 5.9em;
   }
@@ -135,7 +144,7 @@
 
 
   .icon.icon-marketing:before {
-      background-position: -0.2em -146em;
+      background-position: -0.2em -148.1em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -144,7 +153,7 @@
 
 
   .icon.icon-mobile:before {
-      background-position: -0.2em -165.79999999999998em;
+      background-position: -0.2em -167.89999999999998em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -153,7 +162,7 @@
 
 
   .icon.icon-php:before {
-      background-position: -0.2em -185.6em;
+      background-position: -0.2em -187.7em;
       width: 4.2em;
       height: 4.2em;
   }
@@ -161,8 +170,17 @@
 
 
 
+  .icon.icon-php-text:before {
+      background-position: -0.2em -192.29999999999998em;
+      width: 3.78em;
+      height: 1.8em;
+  }
+
+
+
+
   .icon.icon-rocket:before {
-      background-position: -0.2em -190.2em;
+      background-position: -0.2em -194.5em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -171,7 +189,7 @@
 
 
   .icon.icon-tie:before {
-      background-position: -0.2em -210em;
+      background-position: -0.2em -214.29999999999998em;
       width: 24.1em;
       height: 19.4em;
   }
