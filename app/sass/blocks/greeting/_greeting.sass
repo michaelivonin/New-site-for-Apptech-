@@ -9,8 +9,6 @@
 
   &__button-menu
     @extend %btn-default
-    @extend %btn-opacity
-    @extend %btn-animation
 
     width: 34px
     height: 21px
@@ -43,7 +41,6 @@
     font-size: 6.875rem
     font-weight: 800
     line-height: 105px
-    //margin-bottom: 49px
     margin-bottom: 30px
 
   &__description
@@ -58,8 +55,6 @@
 
   &__button-go-down
     @extend %btn-default
-    @extend %btn-opacity
-    @extend %btn-animation
 
     display: inline-block
     margin-top: 39px
@@ -111,14 +106,13 @@
     font-weight: 700
 
     &:hover
-      color: inherit
+      color: $white2
 
     &:focus
       color: $white2
 
   &__button-close
     @extend %btn-default
-    @extend %btn-animation
 
     overflow: hidden
     font-size: 4rem
@@ -126,9 +120,6 @@
     color: $white2
     opacity: 0.7
     float: right
-
-    &:hover
-      color: $black
 
   &__icon-close
     font-size: 1.8rem

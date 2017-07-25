@@ -1,5 +1,10 @@
 @media (min-width: 992px) and (max-width: 1199px)
 
+  .section-heading
+    font-size: 5.625rem
+    line-height: 1
+    margin-left: 84px
+
   .banner
     background-position-x: -70px
 
@@ -10,11 +15,6 @@
 
     &__menu
       margin-left: 40px
-
-  .section-heading
-    font-size: 5.625rem
-    line-height: 1
-    margin-left: 84px
 
   .projects
     padding-top: 50px
@@ -197,3 +197,90 @@
 
     &__dots-block
       right: 82%
+
+
+
+@media (min-width: 992px)
+
+  .link
+
+    &:hover
+      color: $purple4
+      border-bottom-color: $grey6
+
+  .header
+
+    &__button-menu
+
+      &:hover
+        opacity: 0.7
+
+  .banner
+
+    &__button-go-down
+
+      &:hover
+        opacity: 0.7
+
+      &:active
+        position: relative
+        top: 2px
+
+  .column-menu
+
+    &__link
+
+      &:hover
+        color: inherit
+
+    &__button-close
+
+      &:hover
+        color: $black
+
+  .projects
+
+    &__item
+
+      &:hover
+        background: rgb(248, 248, 248)
+        transition: 0.3s ease-out
+
+        .projects__image
+          transform: translateY(2px)
+          transition: 0.3s ease-out
+          z-index: 3
+
+  .studio
+
+    &__city-button
+
+      &:hover
+        opacity: 0.7
+
+      &:hover + .studio__indicator
+        opacity: 0.7
+
+      &:active
+        position: relative
+        top: 2px
+
+    &__city-button_active
+
+      &:hover
+        opacity: 1
+
+      &:hover + .studio__indicator
+        opacity: 1
+
+  .footer
+
+    &__email
+
+      &:hover
+        color: $purple2
+
+    &__link
+
+      &:hover
+        opacity: 0.8

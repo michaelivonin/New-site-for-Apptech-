@@ -35,8 +35,6 @@
 
   &__city-button
     @extend %btn-default
-    @extend %btn-opacity
-    @extend %btn-animation
 
     font-family: 'GothamPro', sans-serif
     color: $purple4
@@ -44,9 +42,6 @@
     font-weight: 500
     margin-top: 8px
     margin-left: 20px
-
-    &:hover + .studio__indicator
-      opacity: 0.7
 
   &__indicator
     width: 5px
@@ -67,12 +62,6 @@
 
   &__city-button_active
     color: $black
-
-    &:hover
-      opacity: 1
-
-    &:hover + .studio__indicator
-      opacity: 1
 
   &__indicator_active
     background: $black3

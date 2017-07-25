@@ -110,14 +110,28 @@ body
       position: relative
       left: 0
 
-%btn-opacity
-  &:hover
-    opacity: 0.7
+.section-heading
+  color: $white3
+  font-size: 6.875rem
+  font-weight: 700
+  margin-left: 101px
+  line-height: 0.909
 
-%btn-animation
-  &:active
-    position: relative
-    top: 2px
+.link
+  display: inline-block
+  font-family: 'GothamPro', sans-serif
+  color: $grey6
+  font-size: 0.75rem
+  font-weight: 700
+  text-transform: uppercase
+  border-bottom: 2px solid $purple4
+  padding-bottom: 6px
+
+  &:hover
+    color: $grey6
+
+  &:focus
+    color: $grey6
 
 // Include _greeting.sass
 @import 'blocks/greeting/greeting'
@@ -132,11 +146,6 @@ body
 
 // Include _svg-sprite.css
 @import '../css/svg-sprite'
-
-
-
-// Include _png-sprite.css
-//@import '../css/png-sprite'
 
 
 
