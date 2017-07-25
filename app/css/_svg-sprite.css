@@ -8,7 +8,7 @@
     display: inline-block;
     background-image: url("../img/svg-sprite.svg");
     background-repeat: no-repeat;
-    background-size: 24.5em 249.6em;
+    background-size: 24.5em 229.6em;
 }
 
 .no-svg .icon:before {
@@ -71,26 +71,8 @@
 
 
 
-  .icon.icon-circles-1:before {
-      background-position: -0.2em -64em;
-      width: 18.4em;
-      height: 9.59em;
-  }
-
-
-
-
-  .icon.icon-circles-2:before {
-      background-position: -0.2em -74em;
-      width: 17.665em;
-      height: 9.59em;
-  }
-
-
-
-
   .icon.icon-design:before {
-      background-position: -0.2em -84em;
+      background-position: -0.2em -64em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -99,7 +81,7 @@
 
 
   .icon.icon-development:before {
-      background-position: -0.2em -103.8em;
+      background-position: -0.2em -83.8em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -108,7 +90,7 @@
 
 
   .icon.icon-html5:before {
-      background-position: -0.2em -123.60000000000001em;
+      background-position: -0.2em -103.60000000000001em;
       width: 4.2em;
       height: 4.2em;
   }
@@ -117,7 +99,7 @@
 
 
   .icon.icon-interface:before {
-      background-position: -0.2em -128.2em;
+      background-position: -0.2em -108.2em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -126,7 +108,7 @@
 
 
   .icon.icon-js:before {
-      background-position: -0.2em -148em;
+      background-position: -0.2em -128em;
       width: 4.1em;
       height: 4.1em;
   }
@@ -135,7 +117,7 @@
 
 
   .icon.icon-logo:before {
-      background-position: -0.2em -152.5em;
+      background-position: -0.2em -132.5em;
       width: 12.6em;
       height: 6.8em;
   }
@@ -144,7 +126,7 @@
 
 
   .icon.icon-logo_menu:before {
-      background-position: -0.2em -159.7em;
+      background-position: -0.2em -139.7em;
       width: 10.6em;
       height: 5.9em;
   }
@@ -153,7 +135,7 @@
 
 
   .icon.icon-marketing:before {
-      background-position: -0.2em -166em;
+      background-position: -0.2em -146em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -162,7 +144,7 @@
 
 
   .icon.icon-mobile:before {
-      background-position: -0.2em -185.79999999999998em;
+      background-position: -0.2em -165.79999999999998em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -171,7 +153,7 @@
 
 
   .icon.icon-php:before {
-      background-position: -0.2em -205.6em;
+      background-position: -0.2em -185.6em;
       width: 4.2em;
       height: 4.2em;
   }
@@ -180,7 +162,7 @@
 
 
   .icon.icon-rocket:before {
-      background-position: -0.2em -210.2em;
+      background-position: -0.2em -190.2em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -189,7 +171,7 @@
 
 
   .icon.icon-tie:before {
-      background-position: -0.2em -230em;
+      background-position: -0.2em -210em;
       width: 24.1em;
       height: 19.4em;
   }
