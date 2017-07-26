@@ -94,6 +94,63 @@ gulp.task('svg', function() {
     .pipe(gulp.dest('./app/img'));
 });
 
+// svgSprite_desktop
+/*gulp.task('svgD', function() {
+  return gulp.src('./app/img/svg/desktop/*.svg')
+    .pipe(svgSprite({
+      //mode: 'symbols',
+      svg: {
+        sprite: '../img/svg-sprite_desktop.svg'
+      },
+      preview: {
+        sprite: 'svg-sprite_desktop.html'
+      },
+      cssFile: '../css/_svg-sprite_desktop.css',
+      svgPath: '%f',
+      pngPath: '%f',
+      padding: 2
+    }))
+    .pipe(gulp.dest('./app/img'));
+});*/
+
+// svgSprite_tablet
+/*gulp.task('svgT', function() {
+  return gulp.src('./app/img/svg/tablet/*.svg')
+    .pipe(svgSprite({
+      //mode: 'symbols',
+      svg: {
+        sprite: '../img/svg-sprite_tablet.svg'
+      },
+      preview: {
+        sprite: 'svg-sprite_tablet.html'
+      },
+      cssFile: '../css/_svg-sprite_tablet.css',
+      svgPath: '%f',
+      pngPath: '%f',
+      padding: 2
+    }))
+    .pipe(gulp.dest('./app/img'));
+});*/
+
+// svgSprite_mobile
+/*gulp.task('svgM', function() {
+  return gulp.src('./app/img/svg/mobile/*.svg')
+    .pipe(svgSprite({
+      //mode: 'symbols',
+      svg: {
+        sprite: '../img/svg-sprite_mobile.svg'
+      },
+      preview: {
+        sprite: 'svg-sprite_mobile.html'
+      },
+      cssFile: '../css/_svg-sprite_mobile.css',
+      svgPath: '%f',
+      pngPath: '%f',
+      padding: 2
+    }))
+    .pipe(gulp.dest('./app/img'));
+});*/
+
 // Clean dist
 gulp.task('clean', function() {
   return del.sync('./dist');

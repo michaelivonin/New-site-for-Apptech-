@@ -8,7 +8,7 @@
     display: inline-block;
     background-image: url("../img/svg-sprite.svg");
     background-repeat: no-repeat;
-    background-size: 24.5em 233.9em;
+    background-size: 24.5em 329.9em;
 }
 
 .no-svg .icon:before {
@@ -17,8 +17,26 @@
 
 
 
-  .icon.icon-1:before {
+  .icon.icon-briefcase:before {
       background-position: -0.2em -0.2em;
+      width: 24.1em;
+      height: 19.4em;
+  }
+
+
+
+
+  .icon.icon-briefcase_tablets:before {
+      background-position: -0.2em -20em;
+      width: 19.9em;
+      height: 16em;
+  }
+
+
+
+
+  .icon.icon-circles:before {
+      background-position: -0.2em -36.400000000000006em;
       width: 18.4em;
       height: 8.4em;
   }
@@ -26,62 +44,26 @@
 
 
 
-  .icon.icon-2:before {
-      background-position: -0.2em -9em;
-      width: 17.4em;
-      height: 8.4em;
-  }
-
-
-
-
-  .icon.icon-3:before {
-      background-position: -0.2em -17.8em;
-      width: 17.7em;
-      height: 8.4em;
-  }
-
-
-
-
-  .icon.icon-4:before {
-      background-position: -0.2em -26.599999999999998em;
-      width: 17.8em;
-      height: 8.4em;
-  }
-
-
-
-
-  .icon.icon-5:before {
-      background-position: -0.2em -35.400000000000006em;
-      width: 17.6em;
-      height: 8.4em;
-  }
-
-
-
-
-  .icon.icon-briefcase:before {
-      background-position: -0.2em -44.2em;
-      width: 24.1em;
-      height: 19.4em;
-  }
-
-
-
-
   .icon.icon-design:before {
-      background-position: -0.2em -64em;
+      background-position: -0.2em -45.2em;
       width: 24.1em;
       height: 19.4em;
+  }
+
+
+
+
+  .icon.icon-design_tablets:before {
+      background-position: -0.2em -65em;
+      width: 19.9em;
+      height: 16em;
   }
 
 
 
 
   .icon.icon-development:before {
-      background-position: -0.2em -83.8em;
+      background-position: -0.2em -81.4em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -89,8 +71,17 @@
 
 
 
+  .icon.icon-development_tablets:before {
+      background-position: -0.2em -101.2em;
+      width: 19.9em;
+      height: 16em;
+  }
+
+
+
+
   .icon.icon-html5:before {
-      background-position: -0.2em -103.60000000000001em;
+      background-position: -0.2em -117.60000000000001em;
       width: 4.2em;
       height: 4.2em;
   }
@@ -99,7 +90,7 @@
 
 
   .icon.icon-interface:before {
-      background-position: -0.2em -108.2em;
+      background-position: -0.2em -122.2em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -107,8 +98,17 @@
 
 
 
+  .icon.icon-interface_tablets:before {
+      background-position: -0.2em -142em;
+      width: 19.9em;
+      height: 16em;
+  }
+
+
+
+
   .icon.icon-js:before {
-      background-position: -0.2em -128em;
+      background-position: -0.2em -158.39999999999998em;
       width: 4.1em;
       height: 4.1em;
   }
@@ -117,7 +117,7 @@
 
 
   .icon.icon-js-text:before {
-      background-position: -0.2em -132.5em;
+      background-position: -0.2em -162.89999999999998em;
       width: 2.4em;
       height: 1.7em;
   }
@@ -126,7 +126,7 @@
 
 
   .icon.icon-logo:before {
-      background-position: -0.2em -134.6em;
+      background-position: -0.2em -165em;
       width: 12.6em;
       height: 6.8em;
   }
@@ -135,7 +135,7 @@
 
 
   .icon.icon-logo_menu:before {
-      background-position: -0.2em -141.79999999999998em;
+      background-position: -0.2em -172.2em;
       width: 10.6em;
       height: 5.9em;
   }
@@ -144,16 +144,25 @@
 
 
   .icon.icon-marketing:before {
-      background-position: -0.2em -148.1em;
+      background-position: -0.2em -178.5em;
       width: 24.1em;
       height: 19.4em;
+  }
+
+
+
+
+  .icon.icon-marketing_tablets:before {
+      background-position: -0.2em -198.29999999999998em;
+      width: 19.9em;
+      height: 16em;
   }
 
 
 
 
   .icon.icon-mobile:before {
-      background-position: -0.2em -167.89999999999998em;
+      background-position: -0.2em -214.7em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -161,8 +170,17 @@
 
 
 
+  .icon.icon-mobile_tablets:before {
+      background-position: -0.2em -234.5em;
+      width: 19.9em;
+      height: 16em;
+  }
+
+
+
+
   .icon.icon-php:before {
-      background-position: -0.2em -187.7em;
+      background-position: -0.2em -250.89999999999998em;
       width: 4.2em;
       height: 4.2em;
   }
@@ -171,7 +189,7 @@
 
 
   .icon.icon-php-text:before {
-      background-position: -0.2em -192.29999999999998em;
+      background-position: -0.2em -255.5em;
       width: 3.78em;
       height: 1.8em;
   }
@@ -180,7 +198,7 @@
 
 
   .icon.icon-rocket:before {
-      background-position: -0.2em -194.5em;
+      background-position: -0.2em -257.7em;
       width: 24.1em;
       height: 19.4em;
   }
@@ -188,10 +206,28 @@
 
 
 
+  .icon.icon-rocket_tablets:before {
+      background-position: -0.2em -277.5em;
+      width: 19.9em;
+      height: 16em;
+  }
+
+
+
+
   .icon.icon-tie:before {
-      background-position: -0.2em -214.29999999999998em;
+      background-position: -0.2em -293.9em;
       width: 24.1em;
       height: 19.4em;
+  }
+
+
+
+
+  .icon.icon-tie_tablets:before {
+      background-position: -0.2em -313.7em;
+      width: 19.9em;
+      height: 16em;
   }
 
 
