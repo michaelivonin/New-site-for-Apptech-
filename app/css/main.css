@@ -798,8 +798,8 @@ body {
   display: inline-block;
   background-image: url("../img/svg-sprite.svg");
   background-repeat: no-repeat;
-  -webkit-background-size: 24.5em 185em;
-          background-size: 24.5em 185em; }
+  -webkit-background-size: 24.5em 176.2em;
+          background-size: 24.5em 176.2em; }
 
 .no-svg .icon:before {
   background-image: url("../img/svg-sprite.png"); }
@@ -809,63 +809,58 @@ body {
   width: 24.1em;
   height: 19.4em; }
 
-.icon.icon-circles:before {
-  background-position: -0.2em -20em;
-  width: 18.4em;
-  height: 8.4em; }
-
 .icon.icon-design:before {
-  background-position: -0.2em -28.8em;
+  background-position: -0.2em -20em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-development:before {
-  background-position: -0.2em -48.6em;
+  background-position: -0.2em -39.800000000000004em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-interface:before {
-  background-position: -0.2em -68.4em;
+  background-position: -0.2em -59.6em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-js-text:before {
-  background-position: -0.2em -88.2em;
+  background-position: -0.2em -79.4em;
   width: 2.4em;
   height: 1.7em; }
 
 .icon.icon-logo:before {
-  background-position: -0.2em -90.3em;
+  background-position: -0.2em -81.5em;
   width: 12.6em;
   height: 6.8em; }
 
 .icon.icon-logo_menu:before {
-  background-position: -0.2em -97.5em;
+  background-position: -0.2em -88.7em;
   width: 10.6em;
   height: 5.9em; }
 
 .icon.icon-marketing:before {
-  background-position: -0.2em -103.8em;
+  background-position: -0.2em -95em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-mobile:before {
-  background-position: -0.2em -123.60000000000001em;
+  background-position: -0.2em -114.8em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-php-text:before {
-  background-position: -0.2em -143.39999999999998em;
+  background-position: -0.2em -134.6em;
   width: 3.78em;
   height: 1.8em; }
 
 .icon.icon-rocket:before {
-  background-position: -0.2em -145.6em;
+  background-position: -0.2em -136.79999999999998em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-tie:before {
-  background-position: -0.2em -165.39999999999998em;
+  background-position: -0.2em -156.6em;
   width: 24.1em;
   height: 19.4em; }
 
@@ -1087,7 +1082,11 @@ body {
       .header__icon-logo:before {
         width: 12.8em !important; }
     .header__button-menu {
+      width: 29px;
+      height: 19px;
       margin-top: 0; }
+    .header__bar_short {
+      margin: 5px 0 5px 5px; }
   .banner {
     -webkit-background-size: 813px 389px;
             background-size: 813px 389px;
@@ -1290,7 +1289,7 @@ body {
   .header {
     padding-top: 20px; }
     .header__icon-logo {
-      font-size: 0.3rem; }
+      font-size: 0.378rem; }
       .header__icon-logo:before {
         width: 12.7em !important; }
     .header__button-menu {
