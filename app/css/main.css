@@ -690,6 +690,7 @@ body {
     background: #7567ad;
     -webkit-border-radius: 9px;
             border-radius: 9px;
+    margin-right: 3px;
     font-family: 'GothamPro', sans-serif;
     color: white;
     font-size: 0.625rem;
@@ -706,7 +707,7 @@ body {
   .blog__description_width-2 {
     width: 314px; }
   .blog__description_width-3 {
-    width: 323px; }
+    width: 356px; }
 
 .footer {
   background: #231f20;
@@ -718,7 +719,7 @@ body {
   .footer__container {
     position: relative; }
   .footer__logo {
-    margin-right: 505px;
+    margin-right: 547px;
     float: left;
     position: relative;
     z-index: 1; }
@@ -743,15 +744,6 @@ body {
   .footer__email:focus {
     color: #a8a8a8; }
   .footer__socials {
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    width: 74px;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     float: right; }
   .footer__link {
     width: 32px;
@@ -798,8 +790,8 @@ body {
   display: inline-block;
   background-image: url("../img/svg-sprite.svg");
   background-repeat: no-repeat;
-  -webkit-background-size: 24.5em 176.2em;
-          background-size: 24.5em 176.2em; }
+  -webkit-background-size: 24.5em 185em;
+          background-size: 24.5em 185em; }
 
 .no-svg .icon:before {
   background-image: url("../img/svg-sprite.png"); }
@@ -809,58 +801,63 @@ body {
   width: 24.1em;
   height: 19.4em; }
 
-.icon.icon-design:before {
+.icon.icon-circles:before {
   background-position: -0.2em -20em;
+  width: 18.4em;
+  height: 8.4em; }
+
+.icon.icon-design:before {
+  background-position: -0.2em -28.8em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-development:before {
-  background-position: -0.2em -39.800000000000004em;
+  background-position: -0.2em -48.6em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-interface:before {
-  background-position: -0.2em -59.6em;
+  background-position: -0.2em -68.4em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-js-text:before {
-  background-position: -0.2em -79.4em;
+  background-position: -0.2em -88.2em;
   width: 2.4em;
   height: 1.7em; }
 
 .icon.icon-logo:before {
-  background-position: -0.2em -81.5em;
+  background-position: -0.2em -90.3em;
   width: 12.6em;
   height: 6.8em; }
 
 .icon.icon-logo_menu:before {
-  background-position: -0.2em -88.7em;
+  background-position: -0.2em -97.5em;
   width: 10.6em;
   height: 5.9em; }
 
 .icon.icon-marketing:before {
-  background-position: -0.2em -95em;
+  background-position: -0.2em -103.8em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-mobile:before {
-  background-position: -0.2em -114.8em;
+  background-position: -0.2em -123.60000000000001em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-php-text:before {
-  background-position: -0.2em -134.6em;
+  background-position: -0.2em -143.39999999999998em;
   width: 3.78em;
   height: 1.8em; }
 
 .icon.icon-rocket:before {
-  background-position: -0.2em -136.79999999999998em;
+  background-position: -0.2em -145.6em;
   width: 24.1em;
   height: 19.4em; }
 
 .icon.icon-tie:before {
-  background-position: -0.2em -156.6em;
+  background-position: -0.2em -165.39999999999998em;
   width: 24.1em;
   height: 19.4em; }
 
@@ -1023,7 +1020,7 @@ body {
       width: 100%;
       margin-bottom: 27px; }
   .footer__logo {
-    margin-right: 314px; }
+    margin-right: 356px; }
   .footer__dots-block {
     right: 82%; } }
 
@@ -1277,7 +1274,7 @@ body {
     padding-top: 40px;
     padding-bottom: 37px; }
     .footer__logo {
-      margin-right: 105px; }
+      margin-right: 126px; }
     .footer__dots-block {
       right: 77%; } }
 
