@@ -36,6 +36,23 @@
       height: 315px
       margin-bottom: 60px
 
+      &:hover
+        border-bottom: none
+        padding: 10px
+        background: rgb(248, 248, 248)
+        box-shadow: 0 0 10px $white4
+        transition: 0.3s ease-out
+
+        .projects__icons
+          top: 10px
+          right: 10px
+          transition: 0.3s ease-out
+
+        .projects__image
+          transform: translateY(2px)
+          transition: 0.3s ease-out
+          z-index: 3
+
     &__item-ngtron, &__item-cashbox9
       display: none
 
@@ -244,19 +261,6 @@
 
       &:hover
         color: $black
-
-  .projects
-
-    &__item
-
-      &:hover
-        background: rgb(248, 248, 248)
-        transition: 0.3s ease-out
-
-        .projects__image
-          transform: translateY(2px)
-          transition: 0.3s ease-out
-          z-index: 3
 
   .studio
 

@@ -20,3 +20,22 @@
     &__item_width-2
       margin-left: 102px
       margin-right: 41px
+
+@media (min-width: 1200px)
+
+  .projects
+
+    &__item
+
+      &:hover
+        border-bottom: none
+        padding: 10px
+        margin-bottom: -20px
+        background: rgb(248, 248, 248)
+        box-shadow: 0 0 10px $white4
+        transition: 0.3s ease-out
+
+        .projects__image
+          transform: translateY(2px)
+          transition: 0.3s ease-out
+          z-index: 3
