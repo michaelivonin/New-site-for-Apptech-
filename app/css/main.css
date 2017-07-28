@@ -600,6 +600,25 @@ body {
     width: 100%; }
   .studio__image_hidden {
     display: none; }
+  .studio__block-instead-img {
+    padding: 60px 0;
+    height: 454px;
+    background: #231f20;
+    position: relative; }
+  .studio__empty-block-heading {
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
+  .studio__dots-block {
+    width: 100vw;
+    height: 100%;
+    background: transparent;
+    background-image: -webkit-radial-gradient(#5e5c5d 8%, transparent 0);
+    background-image: -o-radial-gradient(#5e5c5d 8%, transparent 0);
+    background-image: radial-gradient(#5e5c5d 8%, transparent 0);
+    -webkit-background-size: 18px 18px;
+            background-size: 18px 18px;
+    position: absolute;
+    top: 0;
+    left: 85.3%; }
 
 .career {
   padding-top: 150px; }
@@ -1240,6 +1259,9 @@ body {
   .studio__city-block_margins {
     margin-left: 133px;
     margin-right: 68px; }
+  .studio__block-instead-img {
+    padding: 40px 0;
+    height: 340px; }
   .career {
     padding-top: 60px; }
     .career__jobs {
@@ -1429,7 +1451,8 @@ body {
       margin-top: 65px;
       border-bottom: none; }
     .services__horizontal-block {
-      left: 85%; }
+      left: 85%;
+      bottom: -1px; }
     .services__dots-block {
       height: 102px;
       top: inherit;
@@ -1513,6 +1536,9 @@ body {
       width: 100%; }
     .studio__connector {
       display: none; }
+    .studio__block-instead-img {
+      padding: 20px 0;
+      height: 170px; }
   .career {
     padding-top: 58px; }
     .career__jobs {
