@@ -235,7 +235,10 @@ body {
     display: block;
     border-bottom: 1px solid #dbdbdb;
     margin-top: 127px;
-    position: relative; }
+    position: relative;
+    -webkit-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out; }
   .projects__item-terminal, .projects__item-instagram {
     margin-top: 0; }
   .projects__item-heading {
@@ -251,7 +254,10 @@ body {
     margin-bottom: 41px; }
   .projects__icons {
     display: inline-block;
-    margin-bottom: 43px; }
+    margin-bottom: 43px;
+    -webkit-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out; }
   .projects__icon-js, .projects__icon-html5 {
     margin-left: 15px; }
   .projects .icon-php_custom {
@@ -304,7 +310,10 @@ body {
   .projects__image {
     position: absolute;
     bottom: 0;
-    right: 0; }
+    right: 0;
+    -webkit-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out; }
   .projects__img-instagram, .projects__img-agroweb, .projects__img-plafond, .projects__img-cashbox9 {
     right: 11px; }
 
@@ -914,17 +923,11 @@ body {
     margin-bottom: -20px;
     background: #f8f8f8;
     -webkit-box-shadow: 0 0 10px #dbdbdb;
-            box-shadow: 0 0 10px #dbdbdb;
-    -webkit-transition: 0.3s ease-out;
-    -o-transition: 0.3s ease-out;
-    transition: 0.3s ease-out; }
+            box-shadow: 0 0 10px #dbdbdb; }
     .projects__item:hover .projects__image {
       -webkit-transform: translateY(2px);
           -ms-transform: translateY(2px);
               transform: translateY(2px);
-      -webkit-transition: 0.3s ease-out;
-      -o-transition: 0.3s ease-out;
-      transition: 0.3s ease-out;
       z-index: 3; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -958,23 +961,14 @@ body {
         padding: 10px;
         background: #f8f8f8;
         -webkit-box-shadow: 0 0 10px #dbdbdb;
-                box-shadow: 0 0 10px #dbdbdb;
-        -webkit-transition: 0.3s ease-out;
-        -o-transition: 0.3s ease-out;
-        transition: 0.3s ease-out; }
+                box-shadow: 0 0 10px #dbdbdb; }
         .projects__item:hover .projects__icons {
           top: 10px;
-          right: 10px;
-          -webkit-transition: 0.3s ease-out;
-          -o-transition: 0.3s ease-out;
-          transition: 0.3s ease-out; }
+          right: 10px; }
         .projects__item:hover .projects__image {
           -webkit-transform: translateY(2px);
               -ms-transform: translateY(2px);
                   transform: translateY(2px);
-          -webkit-transition: 0.3s ease-out;
-          -o-transition: 0.3s ease-out;
-          transition: 0.3s ease-out;
           z-index: 3; }
     .projects__item-ngtron, .projects__item-cashbox9 {
       display: none; }
