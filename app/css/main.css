@@ -916,20 +916,6 @@ body {
     margin-left: 102px;
     margin-right: 41px; } }
 
-@media (min-width: 1200px) {
-  .projects__item:hover {
-    border-bottom: none;
-    padding: 10px;
-    margin-bottom: -20px;
-    background: #f8f8f8;
-    -webkit-box-shadow: 0 0 10px #dbdbdb;
-            box-shadow: 0 0 10px #dbdbdb; }
-    .projects__item:hover .projects__image {
-      -webkit-transform: translateY(2px);
-          -ms-transform: translateY(2px);
-              transform: translateY(2px);
-      z-index: 3; } }
-
 @media (min-width: 992px) and (max-width: 1199px) {
   .section-heading {
     font-size: 5.625rem;
@@ -956,20 +942,6 @@ body {
     .projects__item {
       height: 315px;
       margin-bottom: 60px; }
-      .projects__item:hover {
-        border-bottom: none;
-        padding: 10px;
-        background: #f8f8f8;
-        -webkit-box-shadow: 0 0 10px #dbdbdb;
-                box-shadow: 0 0 10px #dbdbdb; }
-        .projects__item:hover .projects__icons {
-          top: 10px;
-          right: 10px; }
-        .projects__item:hover .projects__image {
-          -webkit-transform: translateY(2px);
-              -ms-transform: translateY(2px);
-                  transform: translateY(2px);
-          z-index: 3; }
     .projects__item-ngtron, .projects__item-cashbox9 {
       display: none; }
     .projects__description {
