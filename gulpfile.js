@@ -4,7 +4,7 @@
 
 'use strict';
 
-const gulp = require('gulp'),
+var gulp = require('gulp'),
   /*changed = require('gulp-changed'),*/
   pug = require('gulp-pug'),
   sass = require('gulp-sass'),
